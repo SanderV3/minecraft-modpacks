@@ -5680,11 +5680,6 @@ hash = "b4db824c83bb9476a4b9b13d9a4af28998d9fbf1ad24071514662fd0c81190be"
 metafile = true
 
 [[files]]
-file = "mods/spellblades-and-such.pw.toml"
-hash = "c774f90ceac96d72e74875040d7ec4fc51aafddc72d70b45f5b106a4152071a5"
-metafile = true
-
-[[files]]
 file = "mods/starlight.pw.toml"
 hash = "98553c2d49ef3a888954f24b7c49fe3442c01fd4fc1f1ed52c5898ed29d29d3b"
 metafile = true
