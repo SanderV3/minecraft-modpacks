@@ -4874,11 +4874,6 @@ hash = "adea09f1e1b05da68cf7407992a9391b15985acf5465a888e54ae076dbd543ab"
 metafile = true
 
 [[files]]
-file = "mods/forge-config-screens.pw.toml"
-hash = "ddb1daa7aef25c68b270ba3f6d70761f80a83dde81a803728a30db97a8acb5d0"
-metafile = true
-
-[[files]]
 file = "mods/formations-nether.pw.toml"
 hash = "0afffd423f22bb5e19129f3cd9183031f1c65b39bbeb68314ea621a42d8514e0"
 metafile = true
