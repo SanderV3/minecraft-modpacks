@@ -1,6 +1,6 @@
 name = "Patchouli"
 filename = "Patchouli-1.20.1-84.1-FABRIC.jar"
-side = "both"
+side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/nU0bVIaL/versions/Muu5nGmj/Patchouli-1.20.1-84.1-FABRIC.jar"
