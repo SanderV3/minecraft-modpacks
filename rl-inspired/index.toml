@@ -5251,6 +5251,11 @@ hash = "647ea48de0ed2f7c03b4cb074eb494e86f6d6da5d43617f9b35b4afd6ac3df66"
 metafile = true
 
 [[files]]
+file = "mods/more-spell-attributes-more-magic-series.pw.toml"
+hash = "9c8c1858ebbca8eee573151a17440d52db780b62b8f90994a6ff4797a493863c"
+metafile = true
+
+[[files]]
 file = "mods/mouse-tweaks.pw.toml"
 hash = "b6685e98fce8f1f45868b9df3dbaa410ec23bb64896c826be596d98b01326116"
 metafile = true
@@ -5662,6 +5667,16 @@ metafile = true
 [[files]]
 file = "mods/spawners_plus.pw.toml"
 hash = "70904d807ef85ccfbd4537d8146082e41454ede773c6cc04eeee6b41e2eef144"
+metafile = true
+
+[[files]]
+file = "mods/spell-engine.pw.toml"
+hash = "6677b688d4d6ac20c1e9fe5df29f1e48931aca9275e0baa946fa278bf0f9f15d"
+metafile = true
+
+[[files]]
+file = "mods/spell-power.pw.toml"
+hash = "b4db824c83bb9476a4b9b13d9a4af28998d9fbf1ad24071514662fd0c81190be"
 metafile = true
 
 [[files]]
