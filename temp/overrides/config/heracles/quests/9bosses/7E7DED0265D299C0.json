@@ -1,0 +1,59 @@
+{
+  "settings": {},
+  "tasks": {
+    "197B60ADA251A1DA": {
+      "title": "Kill the Corrupted Champion",
+      "icon": {
+        "type": "heracles:item",
+        "item": "graveyard:corruption"
+      },
+      "type": "heracles:kill_entity",
+      "amount": 1,
+      "entity": {
+        "type": "graveyard:lich"
+      }
+    }
+  },
+  "rewards": {
+    "22C3B04DEE39F222": {
+      "type": "heracles:xp",
+      "xptype": "level",
+      "amount": 5
+    },
+    "5F8560CBF4C483EF": {
+      "type": "heracles:item",
+      "item": {
+        "id": "graveyard:dark_iron_ingot",
+        "count": 16
+      }
+    }
+  },
+  "display": {
+    "title": "Defeat the §8Corrupted Champion",
+    "description": [
+      "<subtitle id=\"7E7DED0265D299C0\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"197B60ADA251A1DA\" quest=\"7E7DED0265D299C0\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"22C3B04DEE39F222\" quest=\"7E7DED0265D299C0\"/>",
+      "<reward reward=\"5F8560CBF4C483EF\" quest=\"7E7DED0265D299C0\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "graveyard:corruption"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "subtitle": {
+      "text": "At night, place the §fbone staff pieces §rin the Lich Prison structure, then pour the §4Vial of Blood §rinto the altar."
+    },
+    "groups": {
+      " §9Bosses": {
+        "position": [
+          -96,
+          256
+        ]
+      }
+    }
+  }
+}

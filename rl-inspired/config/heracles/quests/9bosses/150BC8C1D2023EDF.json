@@ -1,0 +1,59 @@
+{
+  "settings": {},
+  "tasks": {
+    "7A7B0F45141C8452": {
+      "title": "Kill the Decaying King",
+      "icon": {
+        "type": "heracles:item",
+        "item": "soulsweapons:withered_demon_heart"
+      },
+      "type": "heracles:kill_entity",
+      "amount": 1,
+      "entity": {
+        "type": "soulsweapons:accursed_lord_boss"
+      }
+    }
+  },
+  "rewards": {
+    "175436347E8F1DE6": {
+      "type": "heracles:xp",
+      "xptype": "level",
+      "amount": 20
+    },
+    "203D5989A480179E": {
+      "type": "heracles:item",
+      "item": {
+        "id": "iceandfire:dragonsteel_fire_axe",
+        "count": 1
+      }
+    }
+  },
+  "display": {
+    "title": "Defeat the §4Decaying King",
+    "description": [
+      "<subtitle id=\"150BC8C1D2023EDF\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"7A7B0F45141C8452\" quest=\"150BC8C1D2023EDF\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"175436347E8F1DE6\" quest=\"150BC8C1D2023EDF\"/>",
+      "<reward reward=\"203D5989A480179E\" quest=\"150BC8C1D2023EDF\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "soulsweapons:withered_demon_heart"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "subtitle": {
+      "text": "Found in the remnants of the §4Decaying Kingdom §rin the §4Nether§r."
+    },
+    "groups": {
+      " §9Bosses": {
+        "position": [
+          288,
+          -128
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "dependencies": [
+    "6138B265273C7FEF"
+  ],
+  "tasks": {
+    "Diamond Barrel": {
+      "type": "heracles:item",
+      "item": "sophisticatedstorage:diamond_barrel",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "01DDE00AE4E974D4": {
+      "xptype": "LEVEL",
+      "amount": 1,
+      "type": "heracles:xp"
+    },
+    "07CF799D1D021D65": {
+      "item": {
+        "id": "minecraft:diamond",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"707966C258FB2E3D\" quest=\"279CC78C43BAB4B2\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"01DDE00AE4E974D4\" quest=\"279CC78C43BAB4B2\"/>",
+      "<reward reward=\"07CF799D1D021D65\" quest=\"279CC78C43BAB4B2\"/>"
+    ],
+    "groups": {
+      " §eStorage": {
+        "position": [
+          75,
+          50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sophisticatedstorage:diamond_barrel",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Diamond Barrel"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

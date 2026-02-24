@@ -1,0 +1,66 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "1DBC99A784EB4C96": {
+      "type": "heracles:item",
+      "item": "toms_storage:ts.inventory_connector",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "513A3A51470E7334": {
+      "xptype": "LEVEL",
+      "amount": 1,
+      "type": "heracles:xp"
+    },
+    "52428FBF7EA3E711": {
+      "item": {
+        "id": "minecraft:chest",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Connects all of touching inventories into one, upto 16 blocks away. Use the §6Storage Terminal §7to acces all of your items."
+    },
+    "description": [
+      "<subtitle id=\"2252ACBB97526BB2\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"1DBC99A784EB4C96\" quest=\"2252ACBB97526BB2\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"513A3A51470E7334\" quest=\"2252ACBB97526BB2\"/>",
+      "<reward reward=\"52428FBF7EA3E711\" quest=\"2252ACBB97526BB2\"/>"
+    ],
+    "groups": {
+      " §eStorage": {
+        "position": [
+          -125,
+          -100
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "toms_storage:ts.inventory_connector",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Craft an §3Inventory Connector"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

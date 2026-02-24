@@ -1,0 +1,51 @@
+{
+  "settings": {},
+  "tasks": {
+    "291E447BB3FF96AD": {
+      "type": "heracles:item",
+      "item": "bosses_of_mass_destruction:soul_star"
+    }
+  },
+  "rewards": {
+    "5B88BD632867EC6A": {
+      "type": "heracles:item",
+      "item": {
+        "id": "twilightforest:zombie_skull_candle",
+        "count": 1,
+        "nbt": {
+          "BlockEntityTag": {
+            "CandleAmount": 1,
+            "CandleColor": 0
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Obtain the §bSoul Star",
+    "description": [
+      "<subtitle id=\"46287F57E43A09B0\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"291E447BB3FF96AD\" quest=\"46287F57E43A09B0\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5B88BD632867EC6A\" quest=\"46287F57E43A09B0\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "bosses_of_mass_destruction:soul_star"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "subtitle": {
+      "text": "Drops from undead mobs."
+    },
+    "groups": {
+      " §9Bosses": {
+        "position": [
+          -32,
+          -48
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "dependencies": [
+    "2A1BA4AAA2162ECE"
+  ],
+  "tasks": {
+    "43C7E0A7140610A7": {
+      "type": "heracles:item",
+      "item": "toms_storage:ts.adv_wireless_terminal",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "4A4D78B1A0964A9B": {
+      "xptype": "LEVEL",
+      "amount": 1,
+      "type": "heracles:xp"
+    },
+    "202AA620914E1531": {
+      "item": {
+        "id": "minecraft:chest",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Allows remote access to your storage. Hold shift on the §8Advanced Wireless Terminal §7for more info."
+    },
+    "description": [
+      "<subtitle id=\"42C47B7E819027E8\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"43C7E0A7140610A7\" quest=\"42C47B7E819027E8\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4A4D78B1A0964A9B\" quest=\"42C47B7E819027E8\"/>",
+      "<reward reward=\"202AA620914E1531\" quest=\"42C47B7E819027E8\"/>"
+    ],
+    "groups": {
+      " §eStorage": {
+        "position": [
+          75,
+          -100
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "toms_storage:ts.adv_wireless_terminal",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Craft an §8Advanced Wireless Terminal"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

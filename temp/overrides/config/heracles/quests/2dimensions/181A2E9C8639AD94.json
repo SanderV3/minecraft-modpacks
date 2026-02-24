@@ -1,0 +1,66 @@
+{
+  "dependencies": [
+    "44006FA99D157E40"
+  ],
+  "tasks": {
+    "5AA73CB70F32AF17": {
+      "title": "Locate the Bastion Remnant",
+      "icon": {
+        "item": {
+          "id": "minecraft:gilded_blackstone",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "structures": "minecraft:bastion_remnant",
+      "type": "heracles:structure"
+    }
+  },
+  "rewards": {
+    "4063535961D03E94": {
+      "item": {
+        "id": "minecraft:music_disc_pigstep",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"5AA73CB70F32AF17\" quest=\"181A2E9C8639AD94\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4063535961D03E94\" quest=\"181A2E9C8639AD94\"/>"
+    ],
+    "groups": {
+      " §2Dimensions": {
+        "position": [
+          -368,
+          -176
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:gilded_blackstone",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Find the §6Bastion Remnant"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

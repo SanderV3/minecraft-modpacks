@@ -1,0 +1,35 @@
+{
+  "settings": {},
+  "tasks": {
+    "393657DF538282DD": {
+      "type": "heracles:item",
+      "item": "aquamirae:shell_horn"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Obtain the §6Shell Horn",
+    "description": [
+      "<subtitle id=\"2B565250303715CC\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"393657DF538282DD\" quest=\"2B565250303715CC\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "aquamirae:shell_horn"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "subtitle": {
+      "text": "Drops from the captain of a pillager ship."
+    },
+    "groups": {
+      " §9Bosses": {
+        "position": [
+          -32,
+          -144
+        ]
+      }
+    }
+  }
+}

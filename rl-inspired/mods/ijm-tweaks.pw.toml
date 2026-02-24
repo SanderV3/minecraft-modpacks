@@ -1,0 +1,13 @@
+name = "IJM's Tweaks"
+filename = "ijmtweaks-1.4.0+1.20.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/vevAjqG0/versions/Jq4UH8La/ijmtweaks-1.4.0%2B1.20.jar"
+hash-format = "sha512"
+hash = "fc9bbf639c0d4d7f05ddeac961ff6e3d2f5364f735a41fd78db9f910feb16ba3fd79eb63d22e2509585e0638e9b63e3830e1728fdfb7633ae7696b3772eec401"
+
+[update]
+[update.modrinth]
+mod-id = "vevAjqG0"
+version = "Jq4UH8La"

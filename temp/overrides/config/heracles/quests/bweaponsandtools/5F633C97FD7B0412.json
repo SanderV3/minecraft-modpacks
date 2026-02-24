@@ -1,0 +1,52 @@
+{
+  "settings": {},
+  "dependencies": [
+    "695F381340FA03BD"
+  ],
+  "tasks": {
+    "655E84EA501F83C9": {
+      "type": "heracles:item",
+      "item": "simplyswords:runefused_gem"
+    }
+  },
+  "rewards": {
+    "5FAF37CA4C135220": {
+      "type": "heracles:item",
+      "item": {
+        "id": "simplyswords:empowered_remnant"
+      }
+    },
+    "1162CCF8BDC4D7D1": {
+      "type": "heracles:item",
+      "item": {
+        "id": "simplyswords:runic_tablet",
+        "count": 5
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: simplyswords:runefused_gem",
+    "description": [
+      "<task task=\"655E84EA501F83C9\" quest=\"5F633C97FD7B0412\"/>",
+      "<hr/>",
+      "To make it, combine a &&bRunic Tablet&&r with a &&cEmpowered Remnant&&r in a Smithing Table.",
+      "<br/>",
+      "Click to identify which power you have rolled.",
+      "<hr/>",
+      "<reward reward=\"5FAF37CA4C135220\" quest=\"5F633C97FD7B0412\"/>",
+      "<reward reward=\"1162CCF8BDC4D7D1\" quest=\"5F633C97FD7B0412\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "simplyswords:runefused_gem"
+    },
+    "groups": {
+      " §bWeapons and Tools": {
+        "position": [
+          -32,
+          -208
+        ]
+      }
+    }
+  }
+}

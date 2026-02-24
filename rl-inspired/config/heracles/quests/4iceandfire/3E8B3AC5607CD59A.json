@@ -1,0 +1,62 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "6A0BEF623557BF4F": {
+      "title": "Create a Legendary Fire, Ice or Lightning Dragon Weapon",
+      "advancements": [
+        "iceandfire:iceandfire/dragonbone_flaming_sword"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "47F7CB5BA980D779": {
+      "item": {
+        "id": "minecraft:netherite_scrap",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"6A0BEF623557BF4F\" quest=\"3E8B3AC5607CD59A\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"47F7CB5BA980D779\" quest=\"3E8B3AC5607CD59A\"/>"
+    ],
+    "groups": {
+      " §4Ice And Fire": {
+        "position": [
+          176,
+          400
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "iceandfire:dragonbone_sword_fire",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Craft the §eDragon Bone Sword"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

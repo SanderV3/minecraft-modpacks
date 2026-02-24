@@ -1,0 +1,87 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "5CFAC9FC1BA12534": {
+      "icon": {
+        "item": {
+          "id": "minecraft:obsidian",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "from": "minecraft:overworld",
+      "to": "minecraft:the_nether",
+      "title": "Enter &5The Nether",
+      "type": "heracles:changed_dimension"
+    }
+  },
+  "rewards": {
+    "3999A26EB3EB22A8": {
+      "xptype": "LEVEL",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "25E5D572262888A9": {
+      "item": {
+        "id": "minecraft:splash_potion",
+        "count": 1,
+        "nbt": {
+          "Potion": "minecraft:long_fire_resistance"
+        }
+      },
+      "type": "heracles:item"
+    },
+    "13D9DEF47D5DD181": {
+      "item": {
+        "id": "fwaystones:nether_brick_waystone",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Click on this quest to view the description and read the portal activation guide."
+    },
+    "description": [
+      "<subtitle id=\"44006FA99D157E40\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"5CFAC9FC1BA12534\" quest=\"44006FA99D157E40\"/>",
+      "<hr/>",
+      "To create the portal to &&dThe Nether&&r, build a 4x5 &&5Obsidian &&rframe.",
+      "<br/>",
+      "Light the &&5Obsidian &&rwith the &&7Flint and Steel &&rto activate the portal.",
+      "<hr/>",
+      "<reward reward=\"3999A26EB3EB22A8\" quest=\"44006FA99D157E40\"/>",
+      "<reward reward=\"25E5D572262888A9\" quest=\"44006FA99D157E40\"/>",
+      "<reward reward=\"13D9DEF47D5DD181\" quest=\"44006FA99D157E40\"/>"
+    ],
+    "groups": {
+      " §2Dimensions": {
+        "position": [
+          -320,
+          -128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:obsidian",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "title": {
+      "translate": "Enter &5The Nether"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

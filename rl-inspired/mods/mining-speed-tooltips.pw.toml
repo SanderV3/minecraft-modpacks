@@ -1,0 +1,13 @@
+name = "Mining Speed Tooltips"
+filename = "miningspeedtooltips-fabric-1.0.0-1.20.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/aMctJ87u/versions/UKdoZQiw/miningspeedtooltips-fabric-1.0.0-1.20.1.jar"
+hash-format = "sha512"
+hash = "4de0fdd423df5e37c16946e776e622e85a3bd1d3ca9b4be60f6b52aa2321ff342902390de4fb91110beb670c369385cd73e055897c4f90ab41956c940013afaf"
+
+[update]
+[update.modrinth]
+mod-id = "aMctJ87u"
+version = "UKdoZQiw"

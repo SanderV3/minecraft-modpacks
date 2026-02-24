@@ -1,0 +1,77 @@
+{
+  "dependencies": [
+    "1EFEB5A9C1391220"
+  ],
+  "tasks": {
+    "6E4331DAF6036DD5": {
+      "title": "Create a Dragonsteel Ingot from Dragon Blood and Iron",
+      "advancements": [
+        "iceandfire:iceandfire/dragonsteel"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "6AB6EB7B77384975": {
+      "item": {
+        "id": "iceandfire:ice_dragon_blood",
+        "count": 12
+      },
+      "type": "heracles:item"
+    },
+    "470AEB536F3B4803": {
+      "item": {
+        "id": "iceandfire:fire_dragon_blood",
+        "count": 12
+      },
+      "type": "heracles:item"
+    },
+    "7F332C0F3DC35A41": {
+      "item": {
+        "id": "iceandfire:lightning_dragon_blood",
+        "count": 12
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"6E4331DAF6036DD5\" quest=\"6BB536E4647E981D\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"470AEB536F3B4803\" quest=\"6BB536E4647E981D\"/>",
+      "<reward reward=\"6AB6EB7B77384975\" quest=\"6BB536E4647E981D\"/>",
+      "<reward reward=\"7F332C0F3DC35A41\" quest=\"6BB536E4647E981D\"/>"
+    ],
+    "groups": {
+      " §4Ice And Fire": {
+        "position": [
+          368,
+          400
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "iceandfire:dragonsteel_fire_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Craft the §4Dragonsteel Ingot"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

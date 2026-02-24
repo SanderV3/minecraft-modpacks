@@ -1,0 +1,68 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "16A98F7DD3462506": {
+      "type": "heracles:item",
+      "item": "#simplyswords:uniques",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Obtain a &6Unique &rWeapon."
+    }
+  },
+  "rewards": {
+    "0CFD969B3B1A844F": {
+      "xptype": "LEVEL",
+      "amount": 5,
+      "type": "heracles:xp"
+    },
+    "161F9549F476426E": {
+      "item": {
+        "id": "simplyswords:runic_katana",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"16A98F7DD3462506\" quest=\"3D784ABD37C631F0\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0CFD969B3B1A844F\" quest=\"3D784ABD37C631F0\"/>",
+      "<reward reward=\"161F9549F476426E\" quest=\"3D784ABD37C631F0\"/>"
+    ],
+    "groups": {
+      " §bWeapons and Tools": {
+        "position": [
+          -160,
+          -240
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "simplyswords:runic_tablet",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Obtain a &6Unique &rWeapon."
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,13 @@
+name = "Realistic Human Pain and Suffering"
+filename = "realpain-1.4.6+1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/tfHxOZfc/versions/75LQuyvS/realpain-1.4.6%2B1.20.1.jar"
+hash-format = "sha512"
+hash = "da050c87b7c44f5a2410c50401245b18f1340dabc8373de072984cf1fe47bb847137624cb3a0cc3ae72607bfc1aba81a3444533e60d7411be95d3e803f6df0de"
+
+[update]
+[update.modrinth]
+mod-id = "tfHxOZfc"
+version = "75LQuyvS"

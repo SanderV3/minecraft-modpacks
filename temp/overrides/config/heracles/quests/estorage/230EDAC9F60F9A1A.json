@@ -1,0 +1,66 @@
+{
+  "dependencies": [
+    "4C6FC620D1D09EFC"
+  ],
+  "tasks": {
+    "Copper Chest": {
+      "type": "heracles:item",
+      "item": "sophisticatedstorage:copper_chest",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "3CDB0E7AF3EC847E": {
+      "item": {
+        "id": "minecraft:copper_ingot",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "1C33020EA9660373": {
+      "xptype": "LEVEL",
+      "amount": 1,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"28AFEC7DEC049638\" quest=\"230EDAC9F60F9A1A\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"1C33020EA9660373\" quest=\"230EDAC9F60F9A1A\"/>",
+      "<reward reward=\"3CDB0E7AF3EC847E\" quest=\"230EDAC9F60F9A1A\"/>"
+    ],
+    "groups": {
+      " §eStorage": {
+        "position": [
+          -75,
+          100
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sophisticatedstorage:copper_chest",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Copper Chest"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

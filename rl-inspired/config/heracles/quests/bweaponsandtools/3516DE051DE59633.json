@@ -1,0 +1,55 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7B2E234E68DF45BF"
+  ],
+  "tasks": {
+    "533C2CC158114BF1": {
+      "type": "heracles:item",
+      "item": "simplyswords:harbinger"
+    }
+  },
+  "rewards": {
+    "107514C889469926": {
+      "type": "heracles:item",
+      "item": {
+        "id": "simplyswords:runic_tablet"
+      }
+    },
+    "2BACDBC1FCBC6688": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:nether_star"
+      }
+    },
+    "664E1C497B76A80A": {
+      "type": "heracles:item",
+      "item": {
+        "id": "simplyswords:empowered_remnant"
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: simplyswords:harbinger",
+    "description": [
+      "<task task=\"533C2CC158114BF1\" quest=\"3516DE051DE59633\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"107514C889469926\" quest=\"3516DE051DE59633\"/>",
+      "<reward reward=\"2BACDBC1FCBC6688\" quest=\"3516DE051DE59633\"/>",
+      "<reward reward=\"664E1C497B76A80A\" quest=\"3516DE051DE59633\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "simplyswords:harbinger"
+    },
+    "groups": {
+      " §bWeapons and Tools": {
+        "position": [
+          -32,
+          -128
+        ]
+      }
+    }
+  }
+}

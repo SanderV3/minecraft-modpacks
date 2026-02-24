@@ -1,0 +1,59 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "4EB9BC54071B34FA": {
+      "type": "heracles:item",
+      "item": "#handcrafted:desks",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Any #handcrafted:desks"
+    }
+  },
+  "rewards": {
+    "1A89E40EBB70D24B": {
+      "item": {
+        "id": "minecraft:iron_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"4EB9BC54071B34FA\" quest=\"146CD28418A46587\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"1A89E40EBB70D24B\" quest=\"146CD28418A46587\"/>"
+    ],
+    "groups": {
+      " §5Furniture": {
+        "position": [
+          -16,
+          -80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "handcrafted:oak_desk",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Desks"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

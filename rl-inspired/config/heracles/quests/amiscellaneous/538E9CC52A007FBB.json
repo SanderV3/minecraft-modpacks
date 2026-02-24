@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "tasks": {
+    "6BFD712681798FC9": {
+      "type": "heracles:item",
+      "item": "supplementaries:cage"
+    }
+  },
+  "rewards": {
+    "520C3C57A56D0E0B": {
+      "type": "heracles:xp",
+      "xptype": "level",
+      "amount": 2
+    }
+  },
+  "display": {
+    "title": "Craft a §8Cage",
+    "description": [
+      "<subtitle id=\"538E9CC52A007FBB\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"6BFD712681798FC9\" quest=\"538E9CC52A007FBB\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"520C3C57A56D0E0B\" quest=\"538E9CC52A007FBB\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "supplementaries:cage"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "subtitle": {
+      "text": "Any medium sized entity can be put into a §8Cage§r. Right click to release, shift click on a block to place the §8Cage§r. Chickens that are inside of cages will produce eggs."
+    },
+    "groups": {
+      " §aMiscellaneous": {
+        "position": [
+          -16,
+          128
+        ]
+      }
+    }
+  }
+}

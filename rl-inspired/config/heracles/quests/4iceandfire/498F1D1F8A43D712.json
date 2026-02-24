@@ -1,0 +1,47 @@
+{
+  "settings": {},
+  "tasks": {
+    "1F683F5A13F0EEF3": {
+      "title": "Kill a Cyclops",
+      "icon": {
+        "type": "heracles:item",
+        "item": "iceandfire:cyclops_eye"
+      },
+      "type": "heracles:kill_entity",
+      "amount": 1,
+      "entity": {
+        "type": "iceandfire:cyclops"
+      }
+    }
+  },
+  "rewards": {
+    "1B6A49678D5B62DC": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:mutton",
+        "count": 32
+      }
+    }
+  },
+  "display": {
+    "title": "Defeat the §6Cyclops",
+    "description": [
+      "<task task=\"1F683F5A13F0EEF3\" quest=\"498F1D1F8A43D712\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"1B6A49678D5B62DC\" quest=\"498F1D1F8A43D712\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "iceandfire:cyclops_eye"
+    },
+    "groups": {
+      " §4Ice And Fire": {
+        "position": [
+          240,
+          208
+        ]
+      }
+    }
+  }
+}

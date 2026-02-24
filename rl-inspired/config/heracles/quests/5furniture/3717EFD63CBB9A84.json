@@ -1,0 +1,38 @@
+{
+  "settings": {},
+  "tasks": {
+    "78DFC24F971A89FD": {
+      "type": "heracles:item",
+      "item": "chipped:mason_table"
+    }
+  },
+  "rewards": {
+    "0676F351B64638CB": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:gold_block"
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: chipped:mason_table",
+    "description": [
+      "<task task=\"78DFC24F971A89FD\" quest=\"3717EFD63CBB9A84\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0676F351B64638CB\" quest=\"3717EFD63CBB9A84\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "chipped:mason_table"
+    },
+    "groups": {
+      " §5Furniture": {
+        "position": [
+          -144,
+          48
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "0EAE510F1C373E67": {
+      "type": "heracles:item",
+      "item": "charm:colored_glint_smithing_template",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "2DA601E0E752F337": {
+      "item": {
+        "id": "minecraft:diamond",
+        "count": 7
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"0EAE510F1C373E67\" quest=\"30CFF0B8242B1C9B\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"2DA601E0E752F337\" quest=\"30CFF0B8242B1C9B\"/>"
+    ],
+    "groups": {
+      " §bWeapons and Tools": {
+        "position": [
+          -448,
+          -144
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "charm:colored_glint_smithing_template",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Acquire: charm:colored_glint_smithing_template"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "tasks": {
+    "18A25E50B88EB587": {
+      "title": "Kill the Nether Gauntlet",
+      "icon": {
+        "type": "heracles:item",
+        "item": "bosses_of_mass_destruction:blazing_eye"
+      },
+      "type": "heracles:advancement",
+      "advancements": [
+        "bosses_of_mass_destruction:nether/gauntlet_defeat"
+      ]
+    }
+  },
+  "rewards": {
+    "503F6489D116AAE8": {
+      "type": "heracles:xp",
+      "xptype": "level",
+      "amount": 10
+    },
+    "355D7C7A6DC3C4E5": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:netherite_ingot"
+      }
+    }
+  },
+  "display": {
+    "title": "Defeat the §cNether Gauntlet",
+    "description": [
+      "<subtitle id=\"32FB07636206507B\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"18A25E50B88EB587\" quest=\"32FB07636206507B\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"503F6489D116AAE8\" quest=\"32FB07636206507B\"/>",
+      "<reward reward=\"355D7C7A6DC3C4E5\" quest=\"32FB07636206507B\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "bosses_of_mass_destruction:blazing_eye"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "subtitle": {
+      "text": "Found in the §4Arena §rin the §4Nether§r."
+    },
+    "groups": {
+      " §9Bosses": {
+        "position": [
+          0,
+          160
+        ]
+      }
+    }
+  }
+}

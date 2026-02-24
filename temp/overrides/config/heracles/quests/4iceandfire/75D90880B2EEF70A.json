@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "486AA4FBE4522E2F"
+  ],
+  "tasks": {
+    "4BBAE5C62024A964": {
+      "title": "Create a Dragon Command Staff to Control Your Dragon",
+      "type": "heracles:item",
+      "item": "iceandfire:dragon_stick"
+    }
+  },
+  "rewards": {
+    "3A578A38FB32DCA7": {
+      "type": "heracles:item",
+      "item": {
+        "id": "iceandfire:dragon_meal",
+        "count": 4
+      }
+    }
+  },
+  "display": {
+    "title": "Craft the §7Dragon Command Staff",
+    "description": [
+      "<task task=\"4BBAE5C62024A964\" quest=\"75D90880B2EEF70A\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"3A578A38FB32DCA7\" quest=\"75D90880B2EEF70A\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "iceandfire:dragon_stick"
+    },
+    "groups": {
+      " §4Ice And Fire": {
+        "position": [
+          304,
+          80
+        ]
+      }
+    }
+  }
+}

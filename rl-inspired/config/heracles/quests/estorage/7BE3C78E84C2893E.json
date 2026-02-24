@@ -1,0 +1,66 @@
+{
+  "dependencies": [
+    "5D42BD22635CBAB2"
+  ],
+  "tasks": {
+    "Copper Backpack": {
+      "type": "heracles:item",
+      "item": "sophisticatedbackpacks:copper_backpack",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "56D6BDAB403FCEB7": {
+      "xptype": "LEVEL",
+      "amount": 1,
+      "type": "heracles:xp"
+    },
+    "1AF64775E1C114B1": {
+      "item": {
+        "id": "minecraft:copper_ingot",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"73BC8C6A73CB7DB1\" quest=\"7BE3C78E84C2893E\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"56D6BDAB403FCEB7\" quest=\"7BE3C78E84C2893E\"/>",
+      "<reward reward=\"1AF64775E1C114B1\" quest=\"7BE3C78E84C2893E\"/>"
+    ],
+    "groups": {
+      " §eStorage": {
+        "position": [
+          -75,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sophisticatedbackpacks:copper_backpack",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Craft a §cCopper Backpack"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

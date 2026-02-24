@@ -1,0 +1,84 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "658FA1E764442E32": {
+      "icon": {
+        "item": {
+          "id": "minecraft:bee_nest",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "from": "minecraft:overworld",
+      "to": "the_bumblezone:the_bumblezone",
+      "title": "Enter &6The Bumblezone",
+      "type": "heracles:changed_dimension"
+    }
+  },
+  "rewards": {
+    "402B7DE5A2D12B18": {
+      "xptype": "LEVEL",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "61F0C9325DA2D696": {
+      "item": {
+        "id": "the_bumblezone:honey_compass",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "0ADF8FDCF7104836": {
+      "item": {
+        "id": "the_bumblezone:music_disc_flight_of_the_bumblebee_rimsky_korsakov",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Click on this quest to view the description and read the portal activation guide."
+    },
+    "description": [
+      "<subtitle id=\"1476C9202FDC2A8B\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"658FA1E764442E32\" quest=\"1476C9202FDC2A8B\"/>",
+      "<hr/>",
+      "To enter &&6The Bumblezone&&r, simply throw an &&5Ender Pearl&&r into a &&eBee Nest&&r or a Bee Hive. To leave, dig to &&lY = 0 &&ror tower up to &&lY = 256&&r. Player-ridden animals can be brought into &&6The Bumblezone&&r by pushing yourself into a &&eBee Hive &&rwith a piston, while riding the mob.",
+      "<br/>",
+      "If you have trypophobia, go into the Resourcepacks menu and enable the Anti-trypophobia resourcepack.",
+      "<hr/>",
+      "<reward reward=\"402B7DE5A2D12B18\" quest=\"1476C9202FDC2A8B\"/>",
+      "<reward reward=\"0ADF8FDCF7104836\" quest=\"1476C9202FDC2A8B\"/>",
+      "<reward reward=\"61F0C9325DA2D696\" quest=\"1476C9202FDC2A8B\"/>"
+    ],
+    "groups": {
+      " §2Dimensions": {
+        "position": [
+          -256,
+          32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:bee_nest",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "title": {
+      "translate": "Enter &6The Bumblezone"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

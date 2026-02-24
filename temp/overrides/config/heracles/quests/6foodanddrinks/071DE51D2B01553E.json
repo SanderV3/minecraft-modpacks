@@ -1,0 +1,62 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "0E25118061F0F48F": {
+      "type": "heracles:item",
+      "item": "#c:tools/knives",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Knives"
+    }
+  },
+  "rewards": {
+    "7C94B0BD16FB3224": {
+      "item": {
+        "id": "minecraft:golden_apple",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"0E25118061F0F48F\" quest=\"071DE51D2B01553E\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7C94B0BD16FB3224\" quest=\"071DE51D2B01553E\"/>"
+    ],
+    "groups": {
+      " §6Food and Drinks": {
+        "position": [
+          -128,
+          -80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "farmersdelight:diamond_knife",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Knives"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

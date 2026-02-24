@@ -1,0 +1,61 @@
+{
+  "dependencies": [
+    "499C3FF817B0EFB9"
+  ],
+  "tasks": {
+    "2D1F19B41388A42C": {
+      "type": "heracles:item",
+      "item": "#c:foods/raw_meats",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Raw Meat"
+    }
+  },
+  "rewards": {
+    "79EE60A8BB2AA448": {
+      "item": {
+        "id": "minecraft:golden_apple",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"2D1F19B41388A42C\" quest=\"6CE166A89D62BE93\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"79EE60A8BB2AA448\" quest=\"6CE166A89D62BE93\"/>"
+    ],
+    "groups": {
+      " §6Food and Drinks": {
+        "position": [
+          -80,
+          224
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:beef",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Raw Meat"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

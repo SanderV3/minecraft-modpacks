@@ -1,0 +1,68 @@
+{
+  "dependencies": [
+    "2252ACBB97526BB2"
+  ],
+  "tasks": {
+    "2528750EFAB1927A": {
+      "type": "heracles:item",
+      "item": "toms_storage:ts.storage_terminal",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "50A2740DCDA9BC3F": {
+      "item": {
+        "id": "minecraft:chest",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "41A6D6E3FB1843B7": {
+      "xptype": "LEVEL",
+      "amount": 1,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Gives acces to your items. Place it on a storage block, or on an §3Inventory Connector§r to access all connected storage blocks"
+    },
+    "description": [
+      "<subtitle id=\"5BCF9D61C52EABCC\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"2528750EFAB1927A\" quest=\"5BCF9D61C52EABCC\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"41A6D6E3FB1843B7\" quest=\"5BCF9D61C52EABCC\"/>",
+      "<reward reward=\"50A2740DCDA9BC3F\" quest=\"5BCF9D61C52EABCC\"/>"
+    ],
+    "groups": {
+      " §eStorage": {
+        "position": [
+          -75,
+          -100
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "toms_storage:ts.storage_terminal",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Craft the §6Storage Terminal"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

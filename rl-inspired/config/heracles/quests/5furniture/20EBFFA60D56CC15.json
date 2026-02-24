@@ -1,0 +1,38 @@
+{
+  "settings": {},
+  "tasks": {
+    "3C46A7D085E186F8": {
+      "type": "heracles:item",
+      "item": "chipped:loom_table"
+    }
+  },
+  "rewards": {
+    "48F8F5F6EB258CDA": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:gold_block"
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: chipped:loom_table",
+    "description": [
+      "<task task=\"3C46A7D085E186F8\" quest=\"20EBFFA60D56CC15\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"48F8F5F6EB258CDA\" quest=\"20EBFFA60D56CC15\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "chipped:loom_table"
+    },
+    "groups": {
+      " §5Furniture": {
+        "position": [
+          -16,
+          48
+        ]
+      }
+    }
+  }
+}

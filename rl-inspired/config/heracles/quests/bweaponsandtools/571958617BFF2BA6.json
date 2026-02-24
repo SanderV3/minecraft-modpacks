@@ -1,0 +1,38 @@
+{
+  "settings": {},
+  "tasks": {
+    "3B1F4B264A822DEC": {
+      "type": "heracles:item",
+      "item": "simplyswords:bramblethorn"
+    }
+  },
+  "rewards": {
+    "438A33BAD2D248F3": {
+      "type": "heracles:item",
+      "item": {
+        "id": "simplyswords:runic_tablet"
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: simplyswords:bramblethorn",
+    "description": [
+      "<task task=\"3B1F4B264A822DEC\" quest=\"571958617BFF2BA6\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"438A33BAD2D248F3\" quest=\"571958617BFF2BA6\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "simplyswords:bramblethorn"
+    },
+    "groups": {
+      " §bWeapons and Tools": {
+        "position": [
+          -320,
+          -112
+        ]
+      }
+    }
+  }
+}

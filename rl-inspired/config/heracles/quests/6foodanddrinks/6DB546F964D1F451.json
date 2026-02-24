@@ -1,0 +1,74 @@
+{
+  "dependencies": [
+    "3485EB0E6E652808"
+  ],
+  "tasks": {
+    "6755199D9D46098E": {
+      "type": "heracles:item",
+      "item": "farmersdelight:egg_sandwich",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "7D0A336F5B40F73E": {
+      "type": "heracles:item",
+      "item": "farmersdelight:hamburger",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "47062C08F6B3CB1F": {
+      "type": "heracles:item",
+      "item": "farmersdelight:chicken_sandwich",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "34C5BE80B5EB0ADE": {
+      "item": {
+        "id": "minecraft:golden_apple",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"6755199D9D46098E\" quest=\"6DB546F964D1F451\"/>",
+      "<task task=\"47062C08F6B3CB1F\" quest=\"6DB546F964D1F451\"/>",
+      "<task task=\"7D0A336F5B40F73E\" quest=\"6DB546F964D1F451\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"34C5BE80B5EB0ADE\" quest=\"6DB546F964D1F451\"/>"
+    ],
+    "groups": {
+      " §6Food and Drinks": {
+        "position": [
+          -80,
+          112
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "farmersdelight:hamburger",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Burgers and Sandwiches"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

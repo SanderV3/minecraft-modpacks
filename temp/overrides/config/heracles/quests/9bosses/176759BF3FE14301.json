@@ -1,0 +1,65 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "7DF6BA328B01D7E0": {
+      "title": "Kill the Ur-Ghast",
+      "advancements": [
+        "twilightforest:progress_ur_ghast"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "0266DF10204DDE62": {
+      "xptype": "LEVEL",
+      "amount": 5,
+      "type": "heracles:xp"
+    },
+    "0CCF2EBE606D7DD4": {
+      "item": {
+        "id": "twilightforest:carminite_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"7DF6BA328B01D7E0\" quest=\"176759BF3FE14301\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0266DF10204DDE62\" quest=\"176759BF3FE14301\"/>",
+      "<reward reward=\"0CCF2EBE606D7DD4\" quest=\"176759BF3FE14301\"/>"
+    ],
+    "groups": {
+      " §9Bosses": {
+        "position": [
+          192,
+          160
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "twilightforest:ur_ghast_trophy",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "title": {
+      "translate": "Defeat the §4Ur-Ghast"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

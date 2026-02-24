@@ -1,0 +1,59 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "161B9EA2B4B0BCD2": {
+      "type": "heracles:item",
+      "item": "#handcrafted:wooden_benches",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Any #handcrafted:wooden_benches"
+    }
+  },
+  "rewards": {
+    "5C671F7F73623E51": {
+      "item": {
+        "id": "minecraft:iron_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"161B9EA2B4B0BCD2\" quest=\"0E4D4030BCBB432D\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5C671F7F73623E51\" quest=\"0E4D4030BCBB432D\"/>"
+    ],
+    "groups": {
+      " §5Furniture": {
+        "position": [
+          -80,
+          -112
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "handcrafted:oak_bench",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Benches"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

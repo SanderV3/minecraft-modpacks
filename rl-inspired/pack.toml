@@ -1,0 +1,13 @@
+name = "Rl Inspired"
+author = "SanderV3"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "1ffd6dd83eecd86ada528b58597fa9d54e48e46c1daea11880346d738480d950"
+
+[versions]
+fabric = "0.18.1"
+minecraft = "1.20.1"

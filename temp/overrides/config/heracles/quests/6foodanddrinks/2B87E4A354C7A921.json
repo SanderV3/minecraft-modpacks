@@ -1,0 +1,61 @@
+{
+  "dependencies": [
+    "3485EB0E6E652808"
+  ],
+  "tasks": {
+    "7CD6320F32CD1774": {
+      "type": "heracles:item",
+      "item": "#nethersdelight:meal_item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Meals"
+    }
+  },
+  "rewards": {
+    "72E71EBA70746A51": {
+      "item": {
+        "id": "minecraft:golden_apple",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"7CD6320F32CD1774\" quest=\"2B87E4A354C7A921\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"72E71EBA70746A51\" quest=\"2B87E4A354C7A921\"/>"
+    ],
+    "groups": {
+      " §6Food and Drinks": {
+        "position": [
+          -80,
+          16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "farmersdelight:steak_and_potatoes",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Meals"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

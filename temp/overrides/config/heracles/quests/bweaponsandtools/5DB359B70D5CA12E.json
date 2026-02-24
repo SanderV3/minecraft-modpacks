@@ -1,0 +1,38 @@
+{
+  "settings": {},
+  "tasks": {
+    "3962A9EE78EFFC04": {
+      "type": "heracles:item",
+      "item": "simplyswords:storms_edge"
+    }
+  },
+  "rewards": {
+    "32282C7CBC0617B7": {
+      "type": "heracles:item",
+      "item": {
+        "id": "simplyswords:runic_tablet"
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: simplyswords:storms_edge",
+    "description": [
+      "<task task=\"3962A9EE78EFFC04\" quest=\"5DB359B70D5CA12E\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"32282C7CBC0617B7\" quest=\"5DB359B70D5CA12E\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "simplyswords:storms_edge"
+    },
+    "groups": {
+      " §bWeapons and Tools": {
+        "position": [
+          -288,
+          -176
+        ]
+      }
+    }
+  }
+}

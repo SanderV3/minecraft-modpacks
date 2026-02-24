@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "tasks": {
+    "4883B256ABFF5BD6": {
+      "type": "heracles:item",
+      "item": "minecraft:wither_skeleton_skull"
+    }
+  },
+  "rewards": {
+    "3720BB6AF689BDD4": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:wither_rose",
+        "count": 4
+      }
+    },
+    "40245230F364BF29": {
+      "type": "heracles:item",
+      "item": {
+        "id": "bygonenether:soul_stone",
+        "count": 4
+      }
+    }
+  },
+  "display": {
+    "title": "Obtain the §8Wither Skull",
+    "description": [
+      "<subtitle id=\"48D0007372C9D92E\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"4883B256ABFF5BD6\" quest=\"48D0007372C9D92E\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"3720BB6AF689BDD4\" quest=\"48D0007372C9D92E\"/>",
+      "<reward reward=\"40245230F364BF29\" quest=\"48D0007372C9D92E\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "subtitle": {
+      "text": "Drops from Wither Skeletons"
+    },
+    "groups": {
+      " §9Bosses": {
+        "position": [
+          64,
+          -144
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "dependencies": [
+    "43AF2BBC64E6E869"
+  ],
+  "tasks": {
+    "7B0E7A8F11FE2BB0": {
+      "title": "Give the Quest Ram what it is missing",
+      "advancements": [
+        "twilightforest:quest_ram"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "08C45DB54FDC9E23": {
+      "item": {
+        "id": "twilightforest:twilight_portal_miniature_structure",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"7B0E7A8F11FE2BB0\" quest=\"6BC9CA2E7A44A38A\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"08C45DB54FDC9E23\" quest=\"6BC9CA2E7A44A38A\"/>"
+    ],
+    "groups": {
+      " §2Dimensions": {
+        "position": [
+          -32,
+          -128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "twilightforest:quest_ram_trophy",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Complete the §cQ§6u§ee§as§2t §3R§ba§dm"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

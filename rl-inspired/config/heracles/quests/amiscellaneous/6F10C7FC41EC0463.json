@@ -1,0 +1,46 @@
+{
+  "settings": {},
+  "dependencies": [
+    "22135D7A4301D684"
+  ],
+  "tasks": {
+    "319822DAEDCDD1C7": {
+      "type": "heracles:item",
+      "item": "xp_storage_trinkets:xp_conduit"
+    }
+  },
+  "rewards": {
+    "296063B66EAE3F50": {
+      "type": "heracles:xp",
+      "xptype": "level",
+      "amount": 5
+    }
+  },
+  "display": {
+    "title": "Craft an §6XP Conduit",
+    "description": [
+      "<subtitle id=\"6F10C7FC41EC0463\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"319822DAEDCDD1C7\" quest=\"6F10C7FC41EC0463\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"296063B66EAE3F50\" quest=\"6F10C7FC41EC0463\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "xp_storage_trinkets:xp_conduit"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "subtitle": {
+      "text": "When worn in a Ring slot, 75% of the §aexperience §ryou get get will be transferred into your §aXP Book§r. Can be repaired with §1Cristalis Lazuli§r."
+    },
+    "groups": {
+      " §aMiscellaneous": {
+        "position": [
+          -160,
+          176
+        ]
+      }
+    }
+  }
+}

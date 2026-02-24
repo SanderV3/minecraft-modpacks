@@ -1,0 +1,82 @@
+{
+  "dependencies": [
+    "01BB19BAAF63AE0F",
+    "02F49F7E08FC870E"
+  ],
+  "tasks": {
+    "0E7C539C349D1BA5": {
+      "type": "heracles:item",
+      "item": "farmersdelight:sweet_berry_cheesecake_slice",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "10C4F51D85F8F473": {
+      "type": "heracles:item",
+      "item": "farmersdelight:cake_slice",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "6ECE05B30BE23260": {
+      "type": "heracles:item",
+      "item": "farmersdelight:apple_pie_slice",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "3DDAF5261C450B87": {
+      "type": "heracles:item",
+      "item": "farmersdelight:chocolate_pie_slice",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "122F4BABC79B6791": {
+      "item": {
+        "id": "minecraft:golden_apple",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"10C4F51D85F8F473\" quest=\"1F9EBE44AE6075BF\"/>",
+      "<task task=\"6ECE05B30BE23260\" quest=\"1F9EBE44AE6075BF\"/>",
+      "<task task=\"0E7C539C349D1BA5\" quest=\"1F9EBE44AE6075BF\"/>",
+      "<task task=\"3DDAF5261C450B87\" quest=\"1F9EBE44AE6075BF\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"122F4BABC79B6791\" quest=\"1F9EBE44AE6075BF\"/>"
+    ],
+    "groups": {
+      " §6Food and Drinks": {
+        "position": [
+          -64,
+          -32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "farmersdelight:chocolate_pie_slice",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Pie Slices"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

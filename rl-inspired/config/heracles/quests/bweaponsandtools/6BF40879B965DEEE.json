@@ -1,0 +1,38 @@
+{
+  "settings": {},
+  "tasks": {
+    "6C26A762FBD46DE4": {
+      "type": "heracles:item",
+      "item": "simplyswords:magiscythe"
+    }
+  },
+  "rewards": {
+    "058D5AC45DA81B60": {
+      "type": "heracles:item",
+      "item": {
+        "id": "simplyswords:runic_tablet"
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: simplyswords:magiscythe",
+    "description": [
+      "<task task=\"6C26A762FBD46DE4\" quest=\"6BF40879B965DEEE\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"058D5AC45DA81B60\" quest=\"6BF40879B965DEEE\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "simplyswords:magiscythe"
+    },
+    "groups": {
+      " §bWeapons and Tools": {
+        "position": [
+          -384,
+          -80
+        ]
+      }
+    }
+  }
+}

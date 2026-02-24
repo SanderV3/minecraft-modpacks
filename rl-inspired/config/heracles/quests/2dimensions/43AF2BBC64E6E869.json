@@ -1,0 +1,44 @@
+{
+  "settings": {},
+  "tasks": {
+    "37DD453C733A4D6A": {
+      "title": "Enter &dThe Twilight Forest",
+      "icon": {
+        "type": "heracles:item",
+        "item": "twilightforest:twilight_portal_miniature_structure"
+      },
+      "type": "heracles:changed_dimension",
+      "from": "minecraft:overworld",
+      "to": "twilightforest:twilight_forest"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Enter &dThe Twilight Forest",
+    "description": [
+      "<subtitle id=\"43AF2BBC64E6E869\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"37DD453C733A4D6A\" quest=\"43AF2BBC64E6E869\"/>",
+      "<hr/>",
+      "To create the portal to &&dThe Twilight Forest&&r, dig a 2x2 hole into &&2Grass &&rand fill it with &&9Water. Then place &&cFlowers &&raround it.",
+      "<br/>",
+      "Drop a &&bDiamond &&rto activate the portal."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "twilightforest:twilight_portal_miniature_structure"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "subtitle": {
+      "text": "Click on this quest to view the description and read the portal activation guide."
+    },
+    "groups": {
+      " §2Dimensions": {
+        "position": [
+          -96,
+          -128
+        ]
+      }
+    }
+  }
+}

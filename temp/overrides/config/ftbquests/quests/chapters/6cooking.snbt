@@ -1,0 +1,652 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6cooking"
+	group: ""
+	icon: "farmersdelight:hamburger"
+	id: "7E3776886FD40BE6"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["071DE51D2B01553E"]
+			id: "02F49F7E08FC870E"
+			rewards: [{
+				id: "69ABB3590BD2F9F5"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "32A7C6A6807A5096"
+				item: "farmersdelight:cutting_board"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			id: "071DE51D2B01553E"
+			rewards: [{
+				id: "7C94B0BD16FB3224"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E25118061F0F48F"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "c:tools/knives"
+					}
+				}
+				title: "Knives"
+				type: "item"
+			}]
+			title: "Knives"
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["02F49F7E08FC870E"]
+			id: "52893AA2A4F86365"
+			rewards: [{
+				id: "0684A0274C400E4A"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3300C6451321FC6A"
+					item: "farmersdelight:cooked_salmon_slice"
+					type: "item"
+				}
+				{
+					id: "1B6A1A640C01B3AA"
+					item: "farmersdelight:cooked_cod_slice"
+					type: "item"
+				}
+				{
+					id: "63AF4E2F6E8C974A"
+					item: "farmersdelight:cooked_bacon"
+					type: "item"
+				}
+				{
+					id: "0F766784CAE6A1B9"
+					item: "farmersdelight:cooked_chicken_cuts"
+					type: "item"
+				}
+				{
+					id: "749008D04C14D748"
+					item: "farmersdelight:beef_patty"
+					type: "item"
+				}
+			]
+			title: "Slicy"
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			id: "493DB3568C5E6E1D"
+			rewards: [{
+				id: "1EDFA5F431058F7C"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "32CFC36FB94F78E8"
+					item: "farmersdelight:dog_food"
+					type: "item"
+				}
+				{
+					id: "39F4853976D272B4"
+					item: "farmersdelight:horse_feed"
+					type: "item"
+				}
+			]
+			title: "Animal Food"
+			x: -7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"52893AA2A4F86365"
+				"493DB3568C5E6E1D"
+			]
+			id: "7430271E9CAEA4B1"
+			rewards: [{
+				id: "1116A63CFDEF102A"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			tasks: [{
+				id: "31B8DA974D229DBA"
+				item: "animal_feeding_trough:feeding_trough"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"02F49F7E08FC870E"
+				"01BB19BAAF63AE0F"
+			]
+			id: "1F9EBE44AE6075BF"
+			rewards: [{
+				id: "122F4BABC79B6791"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "10C4F51D85F8F473"
+					item: "farmersdelight:cake_slice"
+					type: "item"
+				}
+				{
+					id: "6ECE05B30BE23260"
+					item: "farmersdelight:apple_pie_slice"
+					type: "item"
+				}
+				{
+					id: "0E7C539C349D1BA5"
+					item: "farmersdelight:sweet_berry_cheesecake_slice"
+					type: "item"
+				}
+				{
+					id: "3DDAF5261C450B87"
+					item: "farmersdelight:chocolate_pie_slice"
+					type: "item"
+				}
+			]
+			title: "Pie Slices"
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["01EF5F74B0595C8E"]
+			id: "01BB19BAAF63AE0F"
+			rewards: [{
+				id: "06F0F1F5E5CA43E8"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "659713F00DE3F13D"
+					item: "minecraft:cake"
+					type: "item"
+				}
+				{
+					id: "2807BF6F21DC36BA"
+					item: "farmersdelight:apple_pie"
+					type: "item"
+				}
+				{
+					id: "210C6AB65EA64B8F"
+					item: "farmersdelight:sweet_berry_cheesecake"
+					type: "item"
+				}
+				{
+					id: "7F7261406D2E6B7C"
+					item: "farmersdelight:chocolate_pie"
+					type: "item"
+				}
+			]
+			title: "Pies"
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			id: "01EF5F74B0595C8E"
+			rewards: [{
+				id: "4D31BF58D0C8C4AE"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			tasks: [{
+				id: "767F3557BAC3B5C6"
+				item: "farmersdelight:pie_crust"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			id: "51BB7C4CFC2DCF65"
+			rewards: [{
+				id: "7D5329EDF9080C0A"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			tasks: [{
+				id: "669D18510FE6CFE2"
+				item: "farmersdelight:raw_pasta"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"51BB7C4CFC2DCF65"
+				"3485EB0E6E652808"
+			]
+			id: "47E85C166E3045B9"
+			rewards: [{
+				id: "7ECAB66536B5A441"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "45CD20A6098C59F6"
+					item: "farmersdelight:pasta_with_mutton_chop"
+					type: "item"
+				}
+				{
+					id: "75738923E94B8C10"
+					item: "farmersdelight:pasta_with_meatballs"
+					type: "item"
+				}
+				{
+					id: "4C13132E3548647F"
+					item: "farmersdelight:vegetable_noodles"
+					type: "item"
+				}
+				{
+					id: "787A384A1A588374"
+					item: "farmersdelight:squid_ink_pasta"
+					type: "item"
+				}
+			]
+			title: "Pasta"
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["02F49F7E08FC870E"]
+			id: "3485EB0E6E652808"
+			rewards: [{
+				id: "7713C429379031D2"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "5540FE5BCBC03CFA"
+				item: "farmersdelight:cooking_pot"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3485EB0E6E652808"]
+			id: "7450C5D02AD495CF"
+			rewards: [{
+				id: "0B362F9A929A53BC"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C726D5929135BE7"
+				item: "farmersdelight:stove"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"3485EB0E6E652808"
+				"06B1C19749B1B3EF"
+			]
+			id: "2BA0794AE5AD0C49"
+			rewards: [{
+				id: "238825DF03AC5F74"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			tasks: [{
+				id: "45227BED6A5411AD"
+				item: "farmersdelight:stuffed_pumpkin_block"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["416B0FD8D7531E46"]
+			id: "6238B8DC6D11FEB7"
+			rewards: [{
+				id: "5848AFA02BF232B6"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1D93C84C6AA4FB02"
+				item: "farmersdelight:rich_soil"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			id: "416B0FD8D7531E46"
+			rewards: [{
+				id: "148053F70B662BBA"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0BC68DED82BE3CF0"
+				item: "farmersdelight:organic_compost"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3485EB0E6E652808"]
+			id: "6DB546F964D1F451"
+			rewards: [{
+				id: "34C5BE80B5EB0ADE"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6755199D9D46098E"
+					item: "farmersdelight:egg_sandwich"
+					type: "item"
+				}
+				{
+					id: "47062C08F6B3CB1F"
+					item: "farmersdelight:chicken_sandwich"
+					type: "item"
+				}
+				{
+					id: "7D0A336F5B40F73E"
+					item: "farmersdelight:hamburger"
+					type: "item"
+				}
+			]
+			title: "Burgers and Sandwiches"
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7450C5D02AD495CF"]
+			id: "5B30000E4735E1DE"
+			rewards: [{
+				id: "1C2BD1E556AA496B"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			tasks: [{
+				id: "02FA80551AD437EA"
+				item: {
+					Count: 1
+					id: "farmersdelight:skillet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3485EB0E6E652808"]
+			id: "6650A014D7EAD387"
+			rewards: [{
+				id: "31A2A8A83EF58CE8"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3738FD8F31826548"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "diet:proteins"
+					}
+				}
+				title: "Sea Food"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3485EB0E6E652808"]
+			id: "2B87E4A354C7A921"
+			rewards: [{
+				id: "72E71EBA70746A51"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7CD6320F32CD1774"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "nethersdelight:meal_item"
+					}
+				}
+				title: "Meals"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4F127D5E1A7828B6"]
+			id: "499C3FF817B0EFB9"
+			rewards: [{
+				id: "41B802F950C1C45B"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			tasks: [{
+				id: "399BD33B9DCDE9ED"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "c:foods/vegetables"
+					}
+				}
+				title: "Vegetables"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 7.0d
+		}
+		{
+			id: "100E209938A4D267"
+			rewards: [{
+				id: "4599631B68968262"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4AD96644F6A38183"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "dehydration:hydrating_drinks"
+					}
+				}
+				title: "Drinks"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0F3ECF00654B5452"]
+			id: "4F127D5E1A7828B6"
+			rewards: [{
+				id: "3929943F404C047F"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			tasks: [{
+				id: "44F530514EE150BE"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "c:crops"
+					}
+				}
+				title: "Crops"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["499C3FF817B0EFB9"]
+			id: "6CE166A89D62BE93"
+			rewards: [{
+				id: "79EE60A8BB2AA448"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2D1F19B41388A42C"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "c:foods/raw_meats"
+					}
+				}
+				title: "Raw Meat"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6CE166A89D62BE93"]
+			id: "28EA32C7F6C8C41B"
+			rewards: [{
+				id: "525EF648C3481D32"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			tasks: [{
+				id: "720B25BA5465CD72"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "c:foods/cooked_meats"
+					}
+				}
+				title: "Cooked Meat"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			id: "0F3ECF00654B5452"
+			rewards: [{
+				id: "052BF9675E8354DA"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1487602D1DBFBCFE"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "c:seeds"
+					}
+				}
+				title: "Seeds"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3485EB0E6E652808"]
+			id: "258C64A5BE9F9EB3"
+			rewards: [{
+				id: "1C7509FDC5E99BF6"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5D6A9092ACA268D5"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "dehydration:hydrating_stew"
+					}
+				}
+				title: "Soups"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6238B8DC6D11FEB7"]
+			id: "06B1C19749B1B3EF"
+			rewards: [{
+				id: "541DE125B7CFC74D"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3CC20B4511D8E8CB"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "createaddition:plants"
+					}
+				}
+				title: "Mushroom Colonies"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			id: "55D75996483EE709"
+			rewards: [{
+				count: 8
+				id: "657641DAD9BCA471"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3599053843759933"
+				item: "minecraft:enchanted_golden_apple"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 5.0d
+		}
+	]
+	title: " &6Food and Drinks"
+}

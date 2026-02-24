@@ -1,0 +1,59 @@
+{
+  "settings": {},
+  "tasks": {
+    "7F16407F294776F9": {
+      "title": "Kill the Monarch of Chaos",
+      "icon": {
+        "type": "heracles:item",
+        "item": "soulsweapons:chaos_crown"
+      },
+      "type": "heracles:kill_entity",
+      "amount": 1,
+      "entity": {
+        "type": "soulsweapons:chaos_monarch"
+      }
+    }
+  },
+  "rewards": {
+    "532C574BFBA6B7C5": {
+      "type": "heracles:xp",
+      "xptype": "level",
+      "amount": 20
+    },
+    "1EB0D7D606705A06": {
+      "type": "heracles:item",
+      "item": {
+        "id": "iceandfire:dragonsteel_fire_leggings",
+        "count": 1
+      }
+    }
+  },
+  "display": {
+    "title": "Defeat the §3Monarch Of Chaos",
+    "description": [
+      "<subtitle id=\"105D788A676D7396\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"7F16407F294776F9\" quest=\"105D788A676D7396\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"532C574BFBA6B7C5\" quest=\"105D788A676D7396\"/>",
+      "<reward reward=\"1EB0D7D606705A06\" quest=\"105D788A676D7396\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "soulsweapons:chaos_crown"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "subtitle": {
+      "text": "Summoned by using the §8Shard of Uncertainty §ron the §3Blackstone Pedestal block§r."
+    },
+    "groups": {
+      " §9Bosses": {
+        "position": [
+          288,
+          160
+        ]
+      }
+    }
+  }
+}

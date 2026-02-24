@@ -1,0 +1,67 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "35A3FA48DF51FF89": {
+      "icon": {
+        "item": {
+          "id": "iceandfire:stymphalian_bird_feather",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "entity": {
+        "type": "iceandfire:stymphalian_bird"
+      },
+      "amount": 1,
+      "title": "Kill a Stymphalian Bird",
+      "type": "heracles:kill_entity"
+    }
+  },
+  "rewards": {
+    "04BD534DAB4F590D": {
+      "item": {
+        "id": "iceandfire:stymphalian_feather_bundle",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"35A3FA48DF51FF89\" quest=\"432531505CED8AAC\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"04BD534DAB4F590D\" quest=\"432531505CED8AAC\"/>"
+    ],
+    "groups": {
+      " §4Ice And Fire": {
+        "position": [
+          304,
+          208
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "iceandfire:stymphalian_bird_feather",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Defeat the §6Sty,phalian Bird"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

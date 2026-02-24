@@ -1,0 +1,60 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "6261485F53C82B8D": {
+      "type": "heracles:item",
+      "item": "supplementaries:cog_block",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "35B791031C361D60": {
+      "item": {
+        "id": "supplementaries:relayer",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": " Compact, vertical §4redstone §rsignaling."
+    },
+    "description": [
+      "<subtitle id=\"3851BFEF1D86D474\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"6261485F53C82B8D\" quest=\"3851BFEF1D86D474\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"35B791031C361D60\" quest=\"3851BFEF1D86D474\"/>"
+    ],
+    "groups": {
+      " §aMiscellaneous": {
+        "position": [
+          -112,
+          128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "supplementaries:cog_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "Craft a §4Cog Block"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

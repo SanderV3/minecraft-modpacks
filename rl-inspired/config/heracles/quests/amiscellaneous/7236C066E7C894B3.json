@@ -1,0 +1,44 @@
+{
+  "settings": {},
+  "tasks": {
+    "3171E8D9D224BCAA": {
+      "type": "heracles:item",
+      "item": "supplementaries:soap"
+    }
+  },
+  "rewards": {
+    "156E76792F358643": {
+      "type": "heracles:item",
+      "item": {
+        "id": "supplementaries:blackboard"
+      }
+    }
+  },
+  "display": {
+    "title": "Craft §dSoap",
+    "description": [
+      "<subtitle id=\"7236C066E7C894B3\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"3171E8D9D224BCAA\" quest=\"7236C066E7C894B3\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"156E76792F358643\" quest=\"7236C066E7C894B3\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "supplementaries:soap"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "subtitle": {
+      "text": "Reverts §cd§ay§ee§bd §ritems, cleans §6Copper Blocks§r, un§cd§ay§ee§bs §rSheep, and turns §2Sticky §rPistons into Pistons."
+    },
+    "groups": {
+      " §aMiscellaneous": {
+        "position": [
+          -16,
+          -16
+        ]
+      }
+    }
+  }
+}

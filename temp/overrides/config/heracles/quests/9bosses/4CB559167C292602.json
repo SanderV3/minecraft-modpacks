@@ -1,0 +1,58 @@
+{
+  "settings": {},
+  "tasks": {
+    "137D94883C50CC0B": {
+      "title": "Kill the Warden",
+      "icon": {
+        "type": "heracles:item",
+        "item": "deeperdarker:heart_of_the_deep"
+      },
+      "type": "heracles:kill_entity",
+      "amount": 1,
+      "entity": {
+        "type": "minecraft:warden"
+      }
+    }
+  },
+  "rewards": {
+    "2986CF26EE537415": {
+      "type": "heracles:xp",
+      "xptype": "level",
+      "amount": 5
+    },
+    "3A51856FFCAB5C63": {
+      "type": "heracles:item",
+      "item": {
+        "id": "deeperdarker:reinforced_echo_shard"
+      }
+    }
+  },
+  "display": {
+    "title": "Defeat the §bWarden",
+    "description": [
+      "<subtitle id=\"4CB559167C292602\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"137D94883C50CC0B\" quest=\"4CB559167C292602\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"2986CF26EE537415\" quest=\"4CB559167C292602\"/>",
+      "<reward reward=\"3A51856FFCAB5C63\" quest=\"4CB559167C292602\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "deeperdarker:heart_of_the_deep"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "subtitle": {
+      "text": "Found underground in the §aOverworld§r."
+    },
+    "groups": {
+      " §9Bosses": {
+        "position": [
+          -96,
+          -128
+        ]
+      }
+    }
+  }
+}

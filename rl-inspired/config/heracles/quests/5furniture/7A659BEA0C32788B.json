@@ -1,0 +1,59 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "6AFF6836346BF434": {
+      "type": "heracles:item",
+      "item": "#handcrafted:drawers",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Any #handcrafted:drawers"
+    }
+  },
+  "rewards": {
+    "213D69B0D62DE911": {
+      "item": {
+        "id": "minecraft:iron_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"6AFF6836346BF434\" quest=\"7A659BEA0C32788B\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"213D69B0D62DE911\" quest=\"7A659BEA0C32788B\"/>"
+    ],
+    "groups": {
+      " §5Furniture": {
+        "position": [
+          -144,
+          -80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "handcrafted:oak_drawer",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Drawers"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

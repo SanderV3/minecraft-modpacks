@@ -1,0 +1,13 @@
+name = "Biomes O'Plenty Renewed"
+filename = "BOP_Renewed_v1.6.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/FvdUXxVO/versions/cQUZ60KF/BOP_Renewed_v1.6.zip"
+hash-format = "sha512"
+hash = "93fc8ae8d07e3980ffca61578bdffc824f186c66a7669ce02d8d2495f6d8397320289bd16139c5def0e6be4049250fc046fd3da53d17cda5bddebd4de5999202"
+
+[update]
+[update.modrinth]
+mod-id = "FvdUXxVO"
+version = "cQUZ60KF"

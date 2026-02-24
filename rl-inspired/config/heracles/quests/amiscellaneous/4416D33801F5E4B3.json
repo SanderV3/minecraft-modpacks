@@ -1,0 +1,94 @@
+{
+  "settings": {},
+  "tasks": {
+    "26D0784BF4A7E7C0": {
+      "title": "Hammock",
+      "type": "heracles:item",
+      "item": "#comforts:hammocks"
+    }
+  },
+  "rewards": {
+    "3631C99270832C38": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:campfire",
+        "count": 1,
+        "nbt": {
+          "BlockEntityTag": {
+            "CookingTimes": [
+              114,
+              104,
+              51,
+              48
+            ],
+            "CookingTotalTimes": [
+              600,
+              600,
+              600,
+              600
+            ],
+            "Items": [
+              {
+                "Count": 1,
+                "Slot": 0,
+                "id": "minecraft:porkchop"
+              },
+              {
+                "Count": 1,
+                "Slot": 1,
+                "id": "minecraft:porkchop"
+              },
+              {
+                "Count": 1,
+                "Slot": 2,
+                "id": "minecraft:porkchop"
+              },
+              {
+                "Count": 1,
+                "Slot": 3,
+                "id": "minecraft:porkchop"
+              }
+            ],
+            "id": "minecraft:campfire"
+          },
+          "display": {
+            "Lore": [
+              "\"(+NBT)\""
+            ]
+          }
+        }
+      }
+    },
+    "29B0F12D818C8C89": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:leather",
+        "count": 2
+      }
+    }
+  },
+  "display": {
+    "title": "Craft a §f§lHammock",
+    "description": [
+      "<subtitle id=\"4416D33801F5E4B3\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"26D0784BF4A7E7C0\" quest=\"4416D33801F5E4B3\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"3631C99270832C38\" quest=\"4416D33801F5E4B3\"/>",
+      "<reward reward=\"29B0F12D818C8C89\" quest=\"4416D33801F5E4B3\"/>"
+    ],
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "subtitle": {
+      "text": "To create a §fHammock§r, first craft the §fHammock Cloth§r. Then, craft two §2Rope and Nails§r. With a gap of four blocks, place the two §2Rope and Nails§r, with the §fHammock Cloth§r connected."
+    },
+    "groups": {
+      " §aMiscellaneous": {
+        "position": [
+          -112,
+          -16
+        ]
+      }
+    }
+  }
+}

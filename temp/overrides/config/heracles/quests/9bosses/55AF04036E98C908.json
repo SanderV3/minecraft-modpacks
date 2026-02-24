@@ -1,0 +1,52 @@
+{
+  "settings": {},
+  "tasks": {
+    "6D1177EC057BFDD4": {
+      "title": "Kill the Alpha Yeti",
+      "icon": {
+        "type": "heracles:item",
+        "item": "twilightforest:alpha_yeti_trophy"
+      },
+      "type": "heracles:advancement",
+      "advancements": [
+        "twilightforest:progress_yeti"
+      ]
+    }
+  },
+  "rewards": {
+    "486F195D77298966": {
+      "type": "heracles:xp",
+      "xptype": "level",
+      "amount": 5
+    },
+    "71E3F5A4AD43F6BC": {
+      "type": "heracles:item",
+      "item": {
+        "id": "twilightforest:arctic_fur_block"
+      }
+    }
+  },
+  "display": {
+    "title": "Defeat the §9Alpha Yeti",
+    "description": [
+      "<task task=\"6D1177EC057BFDD4\" quest=\"55AF04036E98C908\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"486F195D77298966\" quest=\"55AF04036E98C908\"/>",
+      "<reward reward=\"71E3F5A4AD43F6BC\" quest=\"55AF04036E98C908\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "twilightforest:alpha_yeti_trophy"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "groups": {
+      " §9Bosses": {
+        "position": [
+          160,
+          48
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "dependencies": [
+    "6A52090D6BC064D7"
+  ],
+  "tasks": {
+    "21428FE253D34D4E": {
+      "title": "Click me!",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "0778753261F0BA3F": {
+      "xptype": "POINTS",
+      "amount": 15,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Read my description!"
+    },
+    "description": [
+      "<subtitle id=\"175099CF5696829E\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"21428FE253D34D4E\" quest=\"175099CF5696829E\"/>",
+      "<hr/>",
+      "&&9Tasks &&rare things that need to be done to complete a quest. If a task is an item, clicking on it will show its recipe.",
+      "<br/>",
+      "&&6Rewards &&rare what you get after completing all &&9Tasks&&r. Click to claim.",
+      "<br/>",
+      "The pin icon at the top right will pin a quest to your screen.",
+      "<hr/>",
+      "<reward reward=\"0778753261F0BA3F\" quest=\"175099CF5696829E\"/>"
+    ],
+    "groups": {
+      " §dTutorial": {
+        "position": [
+          48,
+          128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:book",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "§6Quests"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

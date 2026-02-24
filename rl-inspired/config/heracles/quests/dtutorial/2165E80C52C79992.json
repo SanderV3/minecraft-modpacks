@@ -1,0 +1,69 @@
+{
+  "dependencies": [
+    "6A52090D6BC064D7"
+  ],
+  "tasks": {
+    "6A64112F92690241": {
+      "title": "Click me!",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "7A14D948A862B2BE": {
+      "xptype": "POINTS",
+      "amount": 15,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Read my description! Make sure to scroll down."
+    },
+    "description": [
+      "<subtitle id=\"2165E80C52C79992\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"6A64112F92690241\" quest=\"2165E80C52C79992\"/>",
+      "<hr/>",
+      "Press &&bR&&r while hovering over an item to view its Recipe",
+      "<br/>",
+      "Press &&bU&&r while hovering over an item to view its Uses",
+      "<br/>",
+      "Press &&bB&&r while a Backpack is on your Back Slot to open it",
+      "<br/>",
+      "Press &&bY &&rto Zoom",
+      "<br/>",
+      "Press &&bM &&rto open the World Map",
+      "<br/>",
+      "Hold &&b;&&r while using a tool with the Vein Mining enchant to activate Vein Mining",
+      "<hr/>",
+      "<reward reward=\"7A14D948A862B2BE\" quest=\"2165E80C52C79992\"/>"
+    ],
+    "groups": {
+      " §dTutorial": {
+        "position": [
+          0,
+          128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:command_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "§9Important Controls"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

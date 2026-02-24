@@ -1,0 +1,59 @@
+{
+  "settings": {},
+  "tasks": {
+    "24D5B09DCFAA3792": {
+      "title": "Kill The Eye",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:ender_eye"
+      },
+      "type": "heracles:kill_entity",
+      "amount": 1,
+      "entity": {
+        "type": "adventurez:the_eye"
+      }
+    }
+  },
+  "rewards": {
+    "7FE20F28945647F9": {
+      "type": "heracles:xp",
+      "xptype": "level",
+      "amount": 10
+    },
+    "4C885A40159D704B": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:end_crystal",
+        "count": 4
+      }
+    }
+  },
+  "display": {
+    "title": "Defeat §3The Eye",
+    "description": [
+      "<subtitle id=\"38E5B11B2A911693\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"24D5B09DCFAA3792\" quest=\"38E5B11B2A911693\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7FE20F28945647F9\" quest=\"38E5B11B2A911693\"/>",
+      "<reward reward=\"4C885A40159D704B\" quest=\"38E5B11B2A911693\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:ender_eye"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "subtitle": {
+      "text": "Build an §3Eye Shrine§r and place the §5Dragon Egg §ron top of it."
+    },
+    "groups": {
+      " §9Bosses": {
+        "position": [
+          96,
+          160
+        ]
+      }
+    }
+  }
+}

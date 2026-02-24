@@ -1,0 +1,77 @@
+{
+  "dependencies": [
+    "2895F13A9C99D578"
+  ],
+  "tasks": {
+    "32618C6556E976F6": {
+      "title": "Create a Dragon Forge Core",
+      "advancements": [
+        "iceandfire:iceandfire/dragon_forge_core"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "19AFEE9103B9379E": {
+      "item": {
+        "id": "iceandfire:dragonforge_ice_input",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "1369C6DF646B42E3": {
+      "item": {
+        "id": "iceandfire:dragonforge_fire_input",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "2055A846693266DF": {
+      "item": {
+        "id": "iceandfire:dragonforge_lightning_input",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"32618C6556E976F6\" quest=\"1EFEB5A9C1391220\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"1369C6DF646B42E3\" quest=\"1EFEB5A9C1391220\"/>",
+      "<reward reward=\"19AFEE9103B9379E\" quest=\"1EFEB5A9C1391220\"/>",
+      "<reward reward=\"2055A846693266DF\" quest=\"1EFEB5A9C1391220\"/>"
+    ],
+    "groups": {
+      " §4Ice And Fire": {
+        "position": [
+          304,
+          399
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "iceandfire:dragonforge_fire_core",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Craft the §6Dragon Forge Core"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

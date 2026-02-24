@@ -1,0 +1,38 @@
+{
+  "settings": {},
+  "tasks": {
+    "7702FD7314AC7526": {
+      "type": "heracles:item",
+      "item": "simplyswords:icewhisper"
+    }
+  },
+  "rewards": {
+    "7A0A11F4998E85E6": {
+      "type": "heracles:item",
+      "item": {
+        "id": "simplyswords:runic_tablet"
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: simplyswords:icewhisper",
+    "description": [
+      "<task task=\"7702FD7314AC7526\" quest=\"0A2CD22158E29B44\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7A0A11F4998E85E6\" quest=\"0A2CD22158E29B44\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "simplyswords:icewhisper"
+    },
+    "groups": {
+      " §bWeapons and Tools": {
+        "position": [
+          -224,
+          -112
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "30EB768C3BFEB9F6": {
+      "title": "Obtain a Dragon Egg",
+      "advancements": [
+        "iceandfire:iceandfire/dragon_egg"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "468E38017A6D802B": {
+      "item": {
+        "id": "iceandfire:dragon_meal",
+        "count": 12
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"30EB768C3BFEB9F6\" quest=\"6D45D2D6E52F9FD3\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"468E38017A6D802B\" quest=\"6D45D2D6E52F9FD3\"/>"
+    ],
+    "groups": {
+      " §4Ice And Fire": {
+        "position": [
+          176,
+          336
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "iceandfire:dragonegg_red",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Obtain the §4Dragon Egg"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "071DE51D2B01553E"
+  ],
+  "tasks": {
+    "32A7C6A6807A5096": {
+      "type": "heracles:item",
+      "item": "farmersdelight:cutting_board"
+    }
+  },
+  "rewards": {
+    "69ABB3590BD2F9F5": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:golden_apple"
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: farmersdelight:cutting_board",
+    "description": [
+      "<task task=\"32A7C6A6807A5096\" quest=\"02F49F7E08FC870E\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"69ABB3590BD2F9F5\" quest=\"02F49F7E08FC870E\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "farmersdelight:cutting_board"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "groups": {
+      " §6Food and Drinks": {
+        "position": [
+          -128,
+          -32
+        ]
+      }
+    }
+  }
+}

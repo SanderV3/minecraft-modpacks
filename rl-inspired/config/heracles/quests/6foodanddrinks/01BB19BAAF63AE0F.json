@@ -1,0 +1,81 @@
+{
+  "dependencies": [
+    "01EF5F74B0595C8E"
+  ],
+  "tasks": {
+    "2807BF6F21DC36BA": {
+      "type": "heracles:item",
+      "item": "farmersdelight:apple_pie",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "7F7261406D2E6B7C": {
+      "type": "heracles:item",
+      "item": "farmersdelight:chocolate_pie",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "210C6AB65EA64B8F": {
+      "type": "heracles:item",
+      "item": "farmersdelight:sweet_berry_cheesecake",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "659713F00DE3F13D": {
+      "type": "heracles:item",
+      "item": "minecraft:cake",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "06F0F1F5E5CA43E8": {
+      "item": {
+        "id": "minecraft:golden_apple",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"659713F00DE3F13D\" quest=\"01BB19BAAF63AE0F\"/>",
+      "<task task=\"2807BF6F21DC36BA\" quest=\"01BB19BAAF63AE0F\"/>",
+      "<task task=\"210C6AB65EA64B8F\" quest=\"01BB19BAAF63AE0F\"/>",
+      "<task task=\"7F7261406D2E6B7C\" quest=\"01BB19BAAF63AE0F\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"06F0F1F5E5CA43E8\" quest=\"01BB19BAAF63AE0F\"/>"
+    ],
+    "groups": {
+      " §6Food and Drinks": {
+        "position": [
+          -16,
+          -32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "farmersdelight:chocolate_pie",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Pies"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

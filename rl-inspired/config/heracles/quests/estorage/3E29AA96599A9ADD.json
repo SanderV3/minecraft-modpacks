@@ -1,0 +1,66 @@
+{
+  "dependencies": [
+    "4551B7A825E6DFDE"
+  ],
+  "tasks": {
+    "Netherite Chest": {
+      "type": "heracles:item",
+      "item": "sophisticatedstorage:netherite_chest",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "724FFE9AA2D7995A": {
+      "xptype": "LEVEL",
+      "amount": 1,
+      "type": "heracles:xp"
+    },
+    "19B2D78A86EBFAA0": {
+      "item": {
+        "id": "minecraft:netherite_upgrade_smithing_template",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"1A20EAEC49A807DE\" quest=\"3E29AA96599A9ADD\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"724FFE9AA2D7995A\" quest=\"3E29AA96599A9ADD\"/>",
+      "<reward reward=\"19B2D78A86EBFAA0\" quest=\"3E29AA96599A9ADD\"/>"
+    ],
+    "groups": {
+      " §eStorage": {
+        "position": [
+          125,
+          100
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sophisticatedstorage:netherite_chest",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Netherite Chest"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

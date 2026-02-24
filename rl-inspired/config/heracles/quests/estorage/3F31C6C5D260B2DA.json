@@ -1,0 +1,68 @@
+{
+  "dependencies": [
+    "411FE795DBEB8033"
+  ],
+  "tasks": {
+    "324C9EECB1BCFE3E": {
+      "type": "heracles:item",
+      "item": "toms_storage:ts.inventory_cable_connector",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "147D666903D761C6": {
+      "item": {
+        "id": "minecraft:chest",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "13DFCFA396606FA3": {
+      "xptype": "LEVEL",
+      "amount": 1,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Used to connect individual storage blocks to the Inventory Network. "
+    },
+    "description": [
+      "<subtitle id=\"3F31C6C5D260B2DA\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"324C9EECB1BCFE3E\" quest=\"3F31C6C5D260B2DA\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"13DFCFA396606FA3\" quest=\"3F31C6C5D260B2DA\"/>",
+      "<reward reward=\"147D666903D761C6\" quest=\"3F31C6C5D260B2DA\"/>"
+    ],
+    "groups": {
+      " §eStorage": {
+        "position": [
+          -25,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "toms_storage:ts.inventory_cable_connector",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Craft an §6Inventory Cable Connector"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

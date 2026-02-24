@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "tasks": {
+    "2A1A944F8C82CC8F": {
+      "type": "heracles:item",
+      "item": "seasonsextras:heater"
+    }
+  },
+  "rewards": {
+    "20D9E1620ACFF327": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:coal_block",
+        "count": 4
+      }
+    }
+  },
+  "display": {
+    "title": "Craft a §6Crop Heater",
+    "description": [
+      "<subtitle id=\"3469D5564560B552\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"2A1A944F8C82CC8F\" quest=\"3469D5564560B552\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"20D9E1620ACFF327\" quest=\"3469D5564560B552\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "seasonsextras:heater"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "subtitle": {
+      "text": "Makes nearby crops warm with the power of normal fuel sources such as coal or blaze rods."
+    },
+    "groups": {
+      " §aMiscellaneous": {
+        "position": [
+          -64,
+          -64
+        ]
+      }
+    }
+  }
+}

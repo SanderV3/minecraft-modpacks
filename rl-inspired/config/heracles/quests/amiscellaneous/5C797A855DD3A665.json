@@ -1,0 +1,63 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "6836555BDE4256E6": {
+      "type": "heracles:item",
+      "item": "bountiful:bountyboard",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "320AB3B627C0A946": {
+      "item": {
+        "id": "bountiful:decree",
+        "count": 1,
+        "nbt": {
+          "bountiful:decree_data": "{}"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Bounties have varying levels of rewards. You can craft decrees to get new bounties."
+    },
+    "description": [
+      "<subtitle id=\"5C797A855DD3A665\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"6836555BDE4256E6\" quest=\"5C797A855DD3A665\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"320AB3B627C0A946\" quest=\"5C797A855DD3A665\"/>"
+    ],
+    "groups": {
+      " §aMiscellaneous": {
+        "position": [
+          32,
+          -16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "bountiful:bountyboard",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "Craft a §6Bounty Board"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

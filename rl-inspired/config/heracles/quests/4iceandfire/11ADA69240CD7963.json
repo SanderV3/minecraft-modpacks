@@ -1,0 +1,47 @@
+{
+  "settings": {},
+  "tasks": {
+    "1C969E1403BCCEC4": {
+      "title": "Kill a Cockatrice",
+      "icon": {
+        "type": "heracles:item",
+        "item": "iceandfire:cockatrice_eye"
+      },
+      "type": "heracles:kill_entity",
+      "amount": 1,
+      "entity": {
+        "type": "iceandfire:cockatrice"
+      }
+    }
+  },
+  "rewards": {
+    "2479E205F8FB449C": {
+      "type": "heracles:item",
+      "item": {
+        "id": "iceandfire:cockatrice_scepter",
+        "count": 1
+      }
+    }
+  },
+  "display": {
+    "title": "Defeat the §7Cockatrice",
+    "description": [
+      "<task task=\"1C969E1403BCCEC4\" quest=\"11ADA69240CD7963\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"2479E205F8FB449C\" quest=\"11ADA69240CD7963\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "iceandfire:cockatrice_eye"
+    },
+    "groups": {
+      " §4Ice And Fire": {
+        "position": [
+          304,
+          272
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "settings": {},
+  "tasks": {
+    "161630E406B003F6": {
+      "type": "heracles:item",
+      "item": "chipped:botanist_workbench"
+    }
+  },
+  "rewards": {
+    "383677615C556201": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:gold_block"
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: chipped:botanist_workbench",
+    "description": [
+      "<task task=\"161630E406B003F6\" quest=\"5F766CAAEBA3291F\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"383677615C556201\" quest=\"5F766CAAEBA3291F\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "chipped:botanist_workbench"
+    },
+    "groups": {
+      " §5Furniture": {
+        "position": [
+          -48,
+          48
+        ]
+      }
+    }
+  }
+}

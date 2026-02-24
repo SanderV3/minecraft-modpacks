@@ -1,0 +1,89 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "3F276AED4F156602": {
+      "icon": {
+        "item": {
+          "id": "minecraft:end_portal_frame",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "from": "minecraft:overworld",
+      "to": "minecraft:the_end",
+      "title": "Enter &eThe End",
+      "type": "heracles:changed_dimension"
+    }
+  },
+  "rewards": {
+    "0F7258C4E28307B6": {
+      "item": {
+        "id": "fwaystones:end_stone_brick_waystone",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "4D13F6DDB69B7D32": {
+      "xptype": "LEVEL",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "30C62768E2CEEBA8": {
+      "item": {
+        "id": "morebows:ender_bow",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Click on this quest to view the description and read the portal activation guide."
+    },
+    "description": [
+      "<subtitle id=\"5D01CFD7CB596102\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"3F276AED4F156602\" quest=\"5D01CFD7CB596102\"/>",
+      "<hr/>",
+      "To enter &&eThe End&&r, craft 12 &&3Eyes of Ender &&rby combining a &&6Blaze Powder &&rand &&3Ender Pearl&&r.",
+      "<br/>",
+      "Locate the portal by right clicking with the &&3Eyes of Ender&&r. Follow the direction it flies to until it goes down, then dig underground to find a &&7Stronghold&&r. Then search for the &&6Portal Room&&r.",
+      "<br/>",
+      "Place the &&3Eyes of Ender &&ron the &&eEnd Portal Frames &&rto activate the portal.",
+      "<hr/>",
+      "<reward reward=\"4D13F6DDB69B7D32\" quest=\"5D01CFD7CB596102\"/>",
+      "<reward reward=\"30C62768E2CEEBA8\" quest=\"5D01CFD7CB596102\"/>",
+      "<reward reward=\"0F7258C4E28307B6\" quest=\"5D01CFD7CB596102\"/>"
+    ],
+    "groups": {
+      " §2Dimensions": {
+        "position": [
+          -256,
+          -192
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:end_portal_frame",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "title": {
+      "translate": "Enter &eThe End"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

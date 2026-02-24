@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "tasks": {
+    "41105864A48403B5": {
+      "type": "heracles:item",
+      "item": "seasonsextras:chiller"
+    }
+  },
+  "rewards": {
+    "712184F48007F33A": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:powder_snow_bucket",
+        "count": 2
+      }
+    }
+  },
+  "display": {
+    "title": "Craft a §bCrop Chiller",
+    "description": [
+      "<subtitle id=\"2F5209E24F8DA712\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"41105864A48403B5\" quest=\"2F5209E24F8DA712\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"712184F48007F33A\" quest=\"2F5209E24F8DA712\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "seasonsextras:chiller"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "subtitle": {
+      "text": "Makes nearby crops cold with the power of §fPowdered Snow§r."
+    },
+    "groups": {
+      " §aMiscellaneous": {
+        "position": [
+          -16,
+          -64
+        ]
+      }
+    }
+  }
+}

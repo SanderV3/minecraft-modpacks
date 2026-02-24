@@ -1,0 +1,64 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "Backpack": {
+      "type": "heracles:item",
+      "item": "sophisticatedbackpacks:backpack",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "1FBC74AA70258925": {
+      "xptype": "LEVEL",
+      "amount": 1,
+      "type": "heracles:xp"
+    },
+    "384509D4AF86BF64": {
+      "item": {
+        "id": "minecraft:leather",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"384122CF33805E79\" quest=\"5D42BD22635CBAB2\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"1FBC74AA70258925\" quest=\"5D42BD22635CBAB2\"/>",
+      "<reward reward=\"384509D4AF86BF64\" quest=\"5D42BD22635CBAB2\"/>"
+    ],
+    "groups": {
+      " §eStorage": {
+        "position": [
+          -125,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sophisticatedbackpacks:backpack",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Craft a §6Backpack"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "dependencies": [
+    "3E8B3AC5607CD59A"
+  ],
+  "tasks": {
+    "06293046B24C455D": {
+      "title": "Create a Dragon Forge Brick",
+      "advancements": [
+        "iceandfire:iceandfire/dragon_forge_brick"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "58EFC832B1556CE5": {
+      "item": {
+        "id": "iceandfire:dragonforge_fire_brick",
+        "count": 5
+      },
+      "type": "heracles:item"
+    },
+    "60D7675C7D0B28A2": {
+      "item": {
+        "id": "iceandfire:dragonforge_lightning_brick",
+        "count": 5
+      },
+      "type": "heracles:item"
+    },
+    "4A70FB9B60A39738": {
+      "item": {
+        "id": "iceandfire:dragonforge_ice_brick",
+        "count": 5
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"06293046B24C455D\" quest=\"2895F13A9C99D578\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"58EFC832B1556CE5\" quest=\"2895F13A9C99D578\"/>",
+      "<reward reward=\"4A70FB9B60A39738\" quest=\"2895F13A9C99D578\"/>",
+      "<reward reward=\"60D7675C7D0B28A2\" quest=\"2895F13A9C99D578\"/>"
+    ],
+    "groups": {
+      " §4Ice And Fire": {
+        "position": [
+          240,
+          400
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "iceandfire:dragonforge_fire_brick",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Craft the §cDragon Forge Brick"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

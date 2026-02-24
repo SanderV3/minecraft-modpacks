@@ -1,0 +1,38 @@
+{
+  "settings": {},
+  "tasks": {
+    "7272339D9E12DDE4": {
+      "type": "heracles:item",
+      "item": "simplyswords:molten_edge"
+    }
+  },
+  "rewards": {
+    "6E738545A88BA7CB": {
+      "type": "heracles:item",
+      "item": {
+        "id": "simplyswords:runic_tablet"
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: simplyswords:molten_edge",
+    "description": [
+      "<task task=\"7272339D9E12DDE4\" quest=\"045B2857591A46AD\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6E738545A88BA7CB\" quest=\"045B2857591A46AD\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "simplyswords:molten_edge"
+    },
+    "groups": {
+      " §bWeapons and Tools": {
+        "position": [
+          -224,
+          -208
+        ]
+      }
+    }
+  }
+}

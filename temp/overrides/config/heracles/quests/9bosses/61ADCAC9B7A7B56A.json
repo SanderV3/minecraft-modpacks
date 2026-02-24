@@ -1,0 +1,58 @@
+{
+  "settings": {},
+  "tasks": {
+    "6FA5B3416C921715": {
+      "title": "Kill a Spider-Pig",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:porkchop"
+      },
+      "type": "heracles:kill_entity",
+      "amount": 1,
+      "entity": {
+        "type": "mutantmonsters:spider_pig"
+      }
+    }
+  },
+  "rewards": {
+    "52CB42E618A367C0": {
+      "type": "heracles:xp",
+      "xptype": "level",
+      "amount": 5
+    },
+    "366E5976C6874DA5": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:piglin_head"
+      }
+    }
+  },
+  "display": {
+    "title": "Defeat the §dSpider-Pig",
+    "description": [
+      "<subtitle id=\"61ADCAC9B7A7B56A\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"6FA5B3416C921715\" quest=\"61ADCAC9B7A7B56A\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"52CB42E618A367C0\" quest=\"61ADCAC9B7A7B56A\"/>",
+      "<reward reward=\"366E5976C6874DA5\" quest=\"61ADCAC9B7A7B56A\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:porkchop"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "subtitle": {
+      "text": "Feed a §dPig §rwith a §cFermented Spider Eye §rand splash a §0Chemical X §rpotion on it."
+    },
+    "groups": {
+      " §9Bosses": {
+        "position": [
+          -288,
+          256
+        ]
+      }
+    }
+  }
+}

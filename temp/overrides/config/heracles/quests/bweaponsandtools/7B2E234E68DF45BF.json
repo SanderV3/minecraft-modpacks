@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "67FE7B1E131482E3"
+  ],
+  "tasks": {
+    "0ED545B5861A92E9": {
+      "type": "heracles:item",
+      "item": "simplyswords:tainted_relic"
+    }
+  },
+  "rewards": {
+    "5AF503E6A5862260": {
+      "type": "heracles:item",
+      "item": {
+        "id": "simplyswords:runic_tablet"
+      }
+    },
+    "1EC00783CFAF3056": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:enchanted_golden_apple"
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: simplyswords:tainted_relic",
+    "description": [
+      "<task task=\"0ED545B5861A92E9\" quest=\"7B2E234E68DF45BF\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5AF503E6A5862260\" quest=\"7B2E234E68DF45BF\"/>",
+      "<reward reward=\"1EC00783CFAF3056\" quest=\"7B2E234E68DF45BF\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "simplyswords:tainted_relic"
+    },
+    "groups": {
+      " §bWeapons and Tools": {
+        "position": [
+          -96,
+          -128
+        ]
+      }
+    }
+  }
+}

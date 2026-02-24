@@ -1,0 +1,13 @@
+name = "SkillMMO"
+filename = "skillmmo-0.1.11-fabric1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/1QS075JZ/versions/UCrmTw8S/skillmmo-0.1.11-fabric1.20.1.jar"
+hash-format = "sha512"
+hash = "1e0bfc14258b1f9a56e1fbdadffb855a902b147cd46840ef2c1587e180772321ea72e7d026d89976cf84f67bb3a947b47c0766fd5e254d1efad1af4231408f2d"
+
+[update]
+[update.modrinth]
+mod-id = "1QS075JZ"
+version = "UCrmTw8S"

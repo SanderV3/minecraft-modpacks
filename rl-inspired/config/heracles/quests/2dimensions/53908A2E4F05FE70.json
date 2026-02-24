@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "41315EA8B594580D"
+  ],
+  "tasks": {
+    "765BB1A0B59F48F0": {
+      "title": "Open an Eternal Portal",
+      "icon": {
+        "type": "heracles:item",
+        "item": "betterend:eternal_crystal"
+      },
+      "type": "heracles:advancement",
+      "advancements": [
+        "betterend:portal_on"
+      ]
+    }
+  },
+  "rewards": {
+    "7FA779A318D489BC": {
+      "type": "heracles:item",
+      "item": {
+        "id": "bosses_of_mass_destruction:charged_ender_pearl"
+      }
+    }
+  },
+  "display": {
+    "title": "Open an §eEternal Portal",
+    "description": [
+      "<subtitle id=\"53908A2E4F05FE70\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"765BB1A0B59F48F0\" quest=\"53908A2E4F05FE70\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7FA779A318D489BC\" quest=\"53908A2E4F05FE70\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "betterend:eternal_crystal"
+    },
+    "subtitle": {
+      "text": "Once opened, this strange portal spawns a matching portal at the same location in §2The Overworld§r. Read §1The End For Dummies§r for details."
+    },
+    "groups": {
+      " §2Dimensions": {
+        "position": [
+          -208,
+          -256
+        ]
+      }
+    }
+  }
+}

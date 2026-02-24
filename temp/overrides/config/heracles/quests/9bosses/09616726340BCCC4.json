@@ -1,0 +1,59 @@
+{
+  "settings": {},
+  "tasks": {
+    "25ED20C66E91945A": {
+      "title": "Kill the Blaze Guardian",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:blaze_rod"
+      },
+      "type": "heracles:kill_entity",
+      "amount": 1,
+      "entity": {
+        "type": "adventurez:blaze_guardian"
+      }
+    }
+  },
+  "rewards": {
+    "7CC602229DF08C26": {
+      "type": "heracles:xp",
+      "xptype": "level",
+      "amount": 5
+    },
+    "1839CEE661E00EBE": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:blaze_rod",
+        "count": 16
+      }
+    }
+  },
+  "display": {
+    "title": "Defeat the §eBlaze Guardian",
+    "description": [
+      "<subtitle id=\"09616726340BCCC4\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"25ED20C66E91945A\" quest=\"09616726340BCCC4\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7CC602229DF08C26\" quest=\"09616726340BCCC4\"/>",
+      "<reward reward=\"1839CEE661E00EBE\" quest=\"09616726340BCCC4\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:blaze_rod"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "subtitle": {
+      "text": "Found near §6blaze §rspawners."
+    },
+    "groups": {
+      " §9Bosses": {
+        "position": [
+          -192,
+          64
+        ]
+      }
+    }
+  }
+}

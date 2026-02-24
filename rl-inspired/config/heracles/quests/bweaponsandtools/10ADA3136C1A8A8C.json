@@ -1,0 +1,38 @@
+{
+  "settings": {},
+  "tasks": {
+    "6AA4BE4273A012B8": {
+      "type": "heracles:item",
+      "item": "simplyswords:stormbringer"
+    }
+  },
+  "rewards": {
+    "038335BD38D60B37": {
+      "type": "heracles:item",
+      "item": {
+        "id": "simplyswords:runic_tablet"
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: simplyswords:stormbringer",
+    "description": [
+      "<task task=\"6AA4BE4273A012B8\" quest=\"10ADA3136C1A8A8C\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"038335BD38D60B37\" quest=\"10ADA3136C1A8A8C\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "simplyswords:stormbringer"
+    },
+    "groups": {
+      " §bWeapons and Tools": {
+        "position": [
+          -320,
+          -176
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "settings": {},
+  "tasks": {
+    "3F890856D316B941": {
+      "type": "heracles:item",
+      "item": "simplyswords:thunderbrand"
+    }
+  },
+  "rewards": {
+    "09558930D6E62846": {
+      "type": "heracles:item",
+      "item": {
+        "id": "simplyswords:runic_tablet"
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: simplyswords:thunderbrand",
+    "description": [
+      "<task task=\"3F890856D316B941\" quest=\"642428AB3A6DEC62\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"09558930D6E62846\" quest=\"642428AB3A6DEC62\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "simplyswords:thunderbrand"
+    },
+    "groups": {
+      " §bWeapons and Tools": {
+        "position": [
+          -224,
+          -176
+        ]
+      }
+    }
+  }
+}

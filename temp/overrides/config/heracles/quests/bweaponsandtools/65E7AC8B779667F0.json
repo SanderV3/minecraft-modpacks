@@ -1,0 +1,38 @@
+{
+  "settings": {},
+  "tasks": {
+    "4AA37619CFBD50CD": {
+      "type": "heracles:item",
+      "item": "simplyswords:decaying_relic"
+    }
+  },
+  "rewards": {
+    "0AC8CABEA078C1AF": {
+      "type": "heracles:item",
+      "item": {
+        "id": "simplyswords:runic_tablet"
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: simplyswords:decaying_relic",
+    "description": [
+      "<task task=\"4AA37619CFBD50CD\" quest=\"65E7AC8B779667F0\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0AC8CABEA078C1AF\" quest=\"65E7AC8B779667F0\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "simplyswords:decaying_relic"
+    },
+    "groups": {
+      " §bWeapons and Tools": {
+        "position": [
+          -288,
+          -80
+        ]
+      }
+    }
+  }
+}

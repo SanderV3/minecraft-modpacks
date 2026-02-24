@@ -1,0 +1,38 @@
+{
+  "settings": {},
+  "tasks": {
+    "3AAAD349633D1DBA": {
+      "type": "heracles:item",
+      "item": "chipped:alchemy_bench"
+    }
+  },
+  "rewards": {
+    "01A29C8294EBB6FE": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:gold_block"
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: chipped:alchemy_bench",
+    "description": [
+      "<task task=\"3AAAD349633D1DBA\" quest=\"5A903F31C0411B54\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"01A29C8294EBB6FE\" quest=\"5A903F31C0411B54\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "chipped:alchemy_bench"
+    },
+    "groups": {
+      " §5Furniture": {
+        "position": [
+          16,
+          48
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "settings": {},
+  "tasks": {
+    "11157B94A0F3E459": {
+      "title": "Kill the Old Champion's Remains",
+      "icon": {
+        "type": "heracles:item",
+        "item": "soulsweapons:draugr"
+      },
+      "type": "heracles:kill_entity",
+      "amount": 1,
+      "entity": {
+        "type": "soulsweapons:draugr_boss"
+      }
+    },
+    "730F7E410E28B6A4": {
+      "title": "Kill the Frenzied Shade",
+      "icon": {
+        "type": "heracles:item",
+        "item": "soulsweapons:essence_of_eventide"
+      },
+      "type": "heracles:kill_entity",
+      "amount": 1,
+      "entity": {
+        "type": "soulsweapons:night_shade"
+      }
+    }
+  },
+  "rewards": {
+    "53416EDB272C8E0C": {
+      "type": "heracles:xp",
+      "xptype": "level",
+      "amount": 20
+    },
+    "696E0A340E461F4E": {
+      "type": "heracles:item",
+      "item": {
+        "id": "iceandfire:dragonsteel_fire_helmet",
+        "count": 1
+      }
+    }
+  },
+  "display": {
+    "title": "Defeat the §eOld Champion's Remains",
+    "description": [
+      "<subtitle id=\"09A92E7BEEC4E6AA\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"11157B94A0F3E459\" quest=\"09A92E7BEEC4E6AA\"/>",
+      "<task task=\"730F7E410E28B6A4\" quest=\"09A92E7BEEC4E6AA\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"53416EDB272C8E0C\" quest=\"09A92E7BEEC4E6AA\"/>",
+      "<reward reward=\"696E0A340E461F4E\" quest=\"09A92E7BEEC4E6AA\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "soulsweapons:essence_of_eventide"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "subtitle": {
+      "text": "Found in the §eOld Champion's Graves §rand after killing it, the §1Frenzied Shade §rwill spawn."
+    },
+    "groups": {
+      " §9Bosses": {
+        "position": [
+          288,
+          -32
+        ]
+      }
+    }
+  }
+}

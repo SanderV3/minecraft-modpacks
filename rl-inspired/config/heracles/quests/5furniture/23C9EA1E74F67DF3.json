@@ -1,0 +1,59 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "23FA3772C6D76065": {
+      "type": "heracles:item",
+      "item": "#handcrafted:tables",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Any #handcrafted:tables"
+    }
+  },
+  "rewards": {
+    "6405674EC34ECDC2": {
+      "item": {
+        "id": "minecraft:iron_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"23FA3772C6D76065\" quest=\"23C9EA1E74F67DF3\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6405674EC34ECDC2\" quest=\"23C9EA1E74F67DF3\"/>"
+    ],
+    "groups": {
+      " §5Furniture": {
+        "position": [
+          0,
+          -112
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "handcrafted:oak_table",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Tables"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

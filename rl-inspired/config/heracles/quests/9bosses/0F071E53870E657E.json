@@ -1,0 +1,72 @@
+{
+  "settings": {},
+  "tasks": {
+    "61508C7261C0FB93": {
+      "title": "Kill the Day Stalker",
+      "icon": {
+        "type": "heracles:item",
+        "item": "soulsweapons:empowered_dawnbreaker"
+      },
+      "type": "heracles:kill_entity",
+      "amount": 1,
+      "entity": {
+        "type": "soulsweapons:day_stalker"
+      }
+    },
+    "6CDE1D9FE413AE80": {
+      "title": "Kill the Night Prowler",
+      "icon": {
+        "type": "heracles:item",
+        "item": "soulsweapons:soul_reaper"
+      },
+      "type": "heracles:kill_entity",
+      "amount": 1,
+      "entity": {
+        "type": "soulsweapons:night_prowler"
+      }
+    }
+  },
+  "rewards": {
+    "1DEA2D692E08EB60": {
+      "type": "heracles:xp",
+      "xptype": "level",
+      "amount": 20
+    },
+    "7429B1BF2166601C": {
+      "type": "heracles:item",
+      "item": {
+        "id": "iceandfire:dragonsteel_fire_boots",
+        "count": 1
+      }
+    }
+  },
+  "display": {
+    "title": "Defeat the §6Day Stalker §rand §dNight Prowler",
+    "description": [
+      "<subtitle id=\"0F071E53870E657E\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"61508C7261C0FB93\" quest=\"0F071E53870E657E\"/>",
+      "<task task=\"6CDE1D9FE413AE80\" quest=\"0F071E53870E657E\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"1DEA2D692E08EB60\" quest=\"0F071E53870E657E\"/>",
+      "<reward reward=\"7429B1BF2166601C\" quest=\"0F071E53870E657E\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "soulsweapons:chaos_orb"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "subtitle": {
+      "text": "Summoned by throwing the §bChaos Orb §rinto the sky."
+    },
+    "groups": {
+      " §9Bosses": {
+        "position": [
+          288,
+          256
+        ]
+      }
+    }
+  }
+}

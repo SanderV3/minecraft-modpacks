@@ -1,0 +1,38 @@
+{
+  "settings": {},
+  "tasks": {
+    "0A2C56866AAA1C4E": {
+      "type": "heracles:item",
+      "item": "chipped:carpenters_table"
+    }
+  },
+  "rewards": {
+    "3C6E23199908BEE8": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:gold_block"
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: chipped:carpenters_table",
+    "description": [
+      "<task task=\"0A2C56866AAA1C4E\" quest=\"4F7457E8FA6DAF9E\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"3C6E23199908BEE8\" quest=\"4F7457E8FA6DAF9E\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "chipped:carpenters_table"
+    },
+    "groups": {
+      " §5Furniture": {
+        "position": [
+          -176,
+          48
+        ]
+      }
+    }
+  }
+}

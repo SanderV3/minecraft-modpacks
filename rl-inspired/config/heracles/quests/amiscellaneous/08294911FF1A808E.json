@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "tasks": {
+    "0336FF2CED71744C": {
+      "type": "heracles:item",
+      "item": "sawmill:sawmill"
+    }
+  },
+  "rewards": {
+    "4A2F517AC13071C1": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:oak_log",
+        "count": 8
+      }
+    }
+  },
+  "display": {
+    "title": "Craft a §5Saw",
+    "description": [
+      "<subtitle id=\"08294911FF1A808E\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"0336FF2CED71744C\" quest=\"08294911FF1A808E\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4A2F517AC13071C1\" quest=\"08294911FF1A808E\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "sawmill:sawmill"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "subtitle": {
+      "text": "Crafting station that allows you to create §lany§r wooden item"
+    },
+    "groups": {
+      " §aMiscellaneous": {
+        "position": [
+          32,
+          80
+        ]
+      }
+    }
+  }
+}

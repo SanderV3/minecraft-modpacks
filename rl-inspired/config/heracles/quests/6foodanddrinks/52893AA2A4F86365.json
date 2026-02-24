@@ -1,0 +1,88 @@
+{
+  "dependencies": [
+    "02F49F7E08FC870E"
+  ],
+  "tasks": {
+    "749008D04C14D748": {
+      "type": "heracles:item",
+      "item": "farmersdelight:beef_patty",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "63AF4E2F6E8C974A": {
+      "type": "heracles:item",
+      "item": "farmersdelight:cooked_bacon",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "1B6A1A640C01B3AA": {
+      "type": "heracles:item",
+      "item": "farmersdelight:cooked_cod_slice",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "3300C6451321FC6A": {
+      "type": "heracles:item",
+      "item": "farmersdelight:cooked_salmon_slice",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "0F766784CAE6A1B9": {
+      "type": "heracles:item",
+      "item": "farmersdelight:cooked_chicken_cuts",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "0684A0274C400E4A": {
+      "item": {
+        "id": "minecraft:golden_apple",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"3300C6451321FC6A\" quest=\"52893AA2A4F86365\"/>",
+      "<task task=\"1B6A1A640C01B3AA\" quest=\"52893AA2A4F86365\"/>",
+      "<task task=\"63AF4E2F6E8C974A\" quest=\"52893AA2A4F86365\"/>",
+      "<task task=\"0F766784CAE6A1B9\" quest=\"52893AA2A4F86365\"/>",
+      "<task task=\"749008D04C14D748\" quest=\"52893AA2A4F86365\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0684A0274C400E4A\" quest=\"52893AA2A4F86365\"/>"
+    ],
+    "groups": {
+      " §6Food and Drinks": {
+        "position": [
+          -192,
+          -32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "farmersdelight:mutton_chops",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Slicy"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

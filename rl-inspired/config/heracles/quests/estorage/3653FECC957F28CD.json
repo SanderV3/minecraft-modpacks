@@ -1,0 +1,74 @@
+{
+  "dependencies": [
+    "2E3B0B1B9BC55E42"
+  ],
+  "tasks": {
+    "Iron Barrel": {
+      "type": "heracles:item",
+      "item": "sophisticatedstorage:copper_barrel",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Copper Barrel",
+      "icon": {
+        "item": {
+          "id": "sophisticatedstorage:copper_barrel",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "1E48DA2DFC0F1A62": {
+      "item": {
+        "id": "minecraft:copper_ingot",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "0832378D096C5E1A": {
+      "xptype": "LEVEL",
+      "amount": 1,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"3D59C552B4D9FC66\" quest=\"3653FECC957F28CD\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0832378D096C5E1A\" quest=\"3653FECC957F28CD\"/>",
+      "<reward reward=\"1E48DA2DFC0F1A62\" quest=\"3653FECC957F28CD\"/>"
+    ],
+    "groups": {
+      " §eStorage": {
+        "position": [
+          -75,
+          50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sophisticatedstorage:copper_barrel",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Copper Barrel"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

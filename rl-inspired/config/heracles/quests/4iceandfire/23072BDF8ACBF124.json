@@ -1,0 +1,46 @@
+{
+  "settings": {},
+  "tasks": {
+    "76A8E8CA19014877": {
+      "title": "Kill a Siren",
+      "icon": {
+        "type": "heracles:item",
+        "item": "iceandfire:siren_flute"
+      },
+      "type": "heracles:kill_entity",
+      "amount": 1,
+      "entity": {
+        "type": "iceandfire:siren"
+      }
+    }
+  },
+  "rewards": {
+    "7459E8C5AD30607A": {
+      "type": "heracles:item",
+      "item": {
+        "id": "iceandfire:siren_tear"
+      }
+    }
+  },
+  "display": {
+    "title": "Defeat the §dSiren",
+    "description": [
+      "<task task=\"76A8E8CA19014877\" quest=\"23072BDF8ACBF124\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7459E8C5AD30607A\" quest=\"23072BDF8ACBF124\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "iceandfire:siren_flute"
+    },
+    "groups": {
+      " §4Ice And Fire": {
+        "position": [
+          432,
+          208
+        ]
+      }
+    }
+  }
+}

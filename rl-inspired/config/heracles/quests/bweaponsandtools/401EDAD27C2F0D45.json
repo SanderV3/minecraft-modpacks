@@ -1,0 +1,38 @@
+{
+  "settings": {},
+  "tasks": {
+    "77294FEE104D03D9": {
+      "type": "heracles:item",
+      "item": "simplyswords:shadowsting"
+    }
+  },
+  "rewards": {
+    "56911D476AB4069B": {
+      "type": "heracles:item",
+      "item": {
+        "id": "simplyswords:runic_tablet"
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: simplyswords:shadowsting",
+    "description": [
+      "<task task=\"77294FEE104D03D9\" quest=\"401EDAD27C2F0D45\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"56911D476AB4069B\" quest=\"401EDAD27C2F0D45\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "simplyswords:shadowsting"
+    },
+    "groups": {
+      " §bWeapons and Tools": {
+        "position": [
+          -352,
+          -176
+        ]
+      }
+    }
+  }
+}

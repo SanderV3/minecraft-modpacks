@@ -1,0 +1,13 @@
+name = "Craftable Campfire"
+filename = "craftable-campfire-1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/sI1dk0wa/versions/NCds4kP2/craftable-campfire-1.0.jar"
+hash-format = "sha512"
+hash = "84746055891165a01f7d8cc24913c9221838d87d5580e3c4cacfb4c64ab1223083bad77baf2268ef054e19d3797c46708ffb4cbd30bcbc14edf853799f1cbe07"
+
+[update]
+[update.modrinth]
+mod-id = "sI1dk0wa"
+version = "NCds4kP2"

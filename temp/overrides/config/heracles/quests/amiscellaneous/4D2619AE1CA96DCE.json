@@ -1,0 +1,58 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "339860FFA9F37CA3": {
+      "type": "heracles:item",
+      "item": "bosses_of_mass_destruction:charged_ender_pearl",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "796A97FF54909DE0": {
+      "xptype": "LEVEL",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "A reusable ender pearl which gives brief §6Resistance§r after being used."
+    },
+    "description": [
+      "<subtitle id=\"4D2619AE1CA96DCE\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"339860FFA9F37CA3\" quest=\"4D2619AE1CA96DCE\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"796A97FF54909DE0\" quest=\"4D2619AE1CA96DCE\"/>"
+    ],
+    "groups": {
+      " §aMiscellaneous": {
+        "position": [
+          -160,
+          128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "bosses_of_mass_destruction:charged_ender_pearl",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "Craft a §5Charged Ender Pearl"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

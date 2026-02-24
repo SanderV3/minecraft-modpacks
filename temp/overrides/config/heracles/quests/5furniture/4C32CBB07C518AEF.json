@@ -1,0 +1,59 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "63961A7DE623F432": {
+      "type": "heracles:item",
+      "item": "#handcrafted:counters",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Any #handcrafted:counters"
+    }
+  },
+  "rewards": {
+    "019D7FDD26E30057": {
+      "item": {
+        "id": "minecraft:iron_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"63961A7DE623F432\" quest=\"4C32CBB07C518AEF\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"019D7FDD26E30057\" quest=\"4C32CBB07C518AEF\"/>"
+    ],
+    "groups": {
+      " §5Furniture": {
+        "position": [
+          -48,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "handcrafted:oak_counter",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Counters"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

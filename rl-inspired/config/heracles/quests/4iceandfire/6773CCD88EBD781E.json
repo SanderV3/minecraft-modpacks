@@ -1,0 +1,62 @@
+{
+  "settings": {},
+  "tasks": {
+    "5E655191DEE2FFBB": {
+      "title": "Kill an Ice Dragon",
+      "icon": {
+        "type": "heracles:item",
+        "item": "iceandfire:ice_dragon_heart"
+      },
+      "type": "heracles:kill_entity",
+      "amount": 1,
+      "entity": {
+        "type": "iceandfire:ice_dragon"
+      }
+    }
+  },
+  "rewards": {
+    "56863722531A663B": {
+      "type": "heracles:item",
+      "item": {
+        "id": "iceandfire:dragonscales_blue",
+        "count": 8
+      }
+    },
+    "7BF6F388F9D13E6B": {
+      "type": "heracles:item",
+      "item": {
+        "id": "iceandfire:witherbone",
+        "count": 2
+      }
+    },
+    "2929CC9028599DF9": {
+      "type": "heracles:item",
+      "item": {
+        "id": "iceandfire:ice_dragon_blood"
+      }
+    }
+  },
+  "display": {
+    "title": "Defeat the §bIce Dragon",
+    "description": [
+      "<task task=\"5E655191DEE2FFBB\" quest=\"6773CCD88EBD781E\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"56863722531A663B\" quest=\"6773CCD88EBD781E\"/>",
+      "<reward reward=\"7BF6F388F9D13E6B\" quest=\"6773CCD88EBD781E\"/>",
+      "<reward reward=\"2929CC9028599DF9\" quest=\"6773CCD88EBD781E\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "iceandfire:ice_dragon_heart"
+    },
+    "groups": {
+      " §4Ice And Fire": {
+        "position": [
+          304,
+          144
+        ]
+      }
+    }
+  }
+}

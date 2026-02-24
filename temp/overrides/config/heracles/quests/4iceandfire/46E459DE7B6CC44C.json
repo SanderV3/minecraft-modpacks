@@ -1,0 +1,59 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "46726BEBDF4381D7": {
+      "title": "Tame a Hippogryph by dropping rabbit feet near it",
+      "advancements": [
+        "iceandfire:iceandfire/tame_hippogryph"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "2535A6086D865BDF": {
+      "item": {
+        "id": "iceandfire:diamond_hippogryph_armor",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"46726BEBDF4381D7\" quest=\"46E459DE7B6CC44C\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"2535A6086D865BDF\" quest=\"46E459DE7B6CC44C\"/>"
+    ],
+    "groups": {
+      " §4Ice And Fire": {
+        "position": [
+          240,
+          336
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "iceandfire:hippogryph_talon",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Tame the §6Hippogryph"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "settings": {},
+  "tasks": {
+    "38065FAF90289502": {
+      "title": "Create a Dragon Seeker and use it to Locate Dragons",
+      "type": "heracles:item",
+      "item": "iceandfire:dragon_seeker"
+    }
+  },
+  "rewards": {
+    "5AC95B37A46DA9B7": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:netherite_ingot"
+      }
+    }
+  },
+  "display": {
+    "title": "Craft the §1Dragon Seeker",
+    "description": [
+      "<task task=\"38065FAF90289502\" quest=\"14796B526F586AA6\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5AC95B37A46DA9B7\" quest=\"14796B526F586AA6\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "iceandfire:dragon_seeker"
+    },
+    "groups": {
+      " §4Ice And Fire": {
+        "position": [
+          176,
+          144
+        ]
+      }
+    }
+  }
+}

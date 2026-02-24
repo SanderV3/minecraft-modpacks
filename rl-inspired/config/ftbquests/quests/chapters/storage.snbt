@@ -1,0 +1,560 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "storage"
+	group: ""
+	icon: "minecraft:chest"
+	id: "791A53DBEED81142"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["37E5EC974487F695"]
+			id: "5D42BD22635CBAB2"
+			rewards: [
+				{
+					id: "1FBC74AA70258925"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 4
+					id: "384509D4AF86BF64"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "384122CF33805E79"
+				item: "inmis:frayed_backpack"
+				type: "item"
+			}]
+			title: "Craft a &6Frayed Backpack"
+			x: -2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5D42BD22635CBAB2"]
+			id: "7BE3C78E84C2893E"
+			rewards: [
+				{
+					id: "56D6BDAB403FCEB7"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 4
+					id: "1AF64775E1C114B1"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "73BC8C6A73CB7DB1"
+				item: "inmis:plated_backpack"
+				type: "item"
+			}]
+			title: "Craft a &7Plated Backpack"
+			x: -1.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["7BE3C78E84C2893E"]
+			id: "6DC15B81570E4A30"
+			rewards: [
+				{
+					id: "0EFADF7ED3C5F24B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "3CD6DDB9E853F340"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "265BA7F4726AEBC1"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "27F1B74EFEB56074"
+				item: "inmis:gilded_backpack"
+				type: "item"
+			}]
+			title: "Craft a &eGilded Backpack"
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["6DC15B81570E4A30"]
+			id: "54A7A05E9E687AD6"
+			rewards: [
+				{
+					id: "188210175EFBAB9D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "54B56387215A1A41"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "21FCDFD7C995C77F"
+				item: "inmis:bejeweled_backpack"
+				type: "item"
+			}]
+			title: "Craft a &bBejeweled Backpack"
+			x: 1.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["21E59A10DDE71B7E"]
+			id: "682EDF865FD38D65"
+			rewards: [
+				{
+					id: "401BD01216D7244C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "09A6E6131CCA63CE"
+					item: "minecraft:dragon_head"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6F55592D6FB3148D"
+				item: "inmis:withered_backpack"
+				type: "item"
+			}]
+			title: "Craft a &4Withered Backpack"
+			x: 3.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["682EDF865FD38D65"]
+			id: "22083CC5DCE15BAE"
+			rewards: [
+				{
+					id: "16C849D5AE3F6C13"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "7787B4224AC3246F"
+					item: {
+						Count: 1
+						id: "bosses_of_mass_destruction:earthdive_spear"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "575EFF515C771B4A"
+				item: "inmis:endless_backpack"
+				type: "item"
+			}]
+			title: "Craft a &5Endless Backpack"
+			x: 4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["54A7A05E9E687AD6"]
+			id: "21E59A10DDE71B7E"
+			rewards: [
+				{
+					id: "47610278677D1839"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 3
+					id: "0F77F5D01665EB2F"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0E7742D1DA926057"
+				item: "inmis:blazing_backpack"
+				type: "item"
+			}]
+			title: "Craft a &cBlazing Backpack"
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			id: "37E5EC974487F695"
+			rewards: [
+				{
+					id: "21FF95BA5C2C82FD"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 4
+					id: "2574981FAB3E372C"
+					item: "minecraft:leather"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0527A36F305EBDB9"
+				item: "inmis:baby_backpack"
+				type: "item"
+			}]
+			title: "Craft a &6Baby Backpack"
+			x: -3.0d
+			y: -9.0d
+		}
+		{
+			id: "2A6FD66F53114DCC"
+			rewards: [
+				{
+					id: "719ECF9A55F1C5D0"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 25
+					id: "4B5C0380B4BA4A44"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+				{
+					count: 9
+					id: "3EB3082045CE02D1"
+					item: "minecraft:crying_obsidian"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "3F332E71453AB95C"
+					item: "minecraft:end_rod"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2AF01E02D49198B6"
+				item: "inmis:ender_pouch"
+				type: "item"
+			}]
+			title: "Craft a &3Ender Pouch"
+			x: 5.0d
+			y: -9.0d
+		}
+		{
+			id: "4627F0FBB0FBBC1A"
+			rewards: [{
+				count: 16
+				id: "3C1FC47D907C4D7E"
+				item: "minecraft:golden_carrot"
+				type: "item"
+			}]
+			subtitle: "Found in several structure chests."
+			tasks: [{
+				id: "6F6C9B7B7D29228F"
+				item: "minecraft:bundle"
+				type: "item"
+			}]
+			title: "Obtain a &6Bundle"
+			x: 1.0d
+			y: -6.5d
+		}
+		{
+			id: "2E3B0B1B9BC55E42"
+			rewards: [
+				{
+					id: "286807618B09C03A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 4
+					id: "533AA0363CB0A703"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4F2C6395FC465274"
+				item: "minecraft:barrel"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2E3B0B1B9BC55E42"]
+			id: "3653FECC957F28CD"
+			rewards: [
+				{
+					id: "0832378D096C5E1A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 4
+					id: "1E48DA2DFC0F1A62"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3D59C552B4D9FC66"
+				item: "reinfbarrel:copper_barrel"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0EBEA82953662E42"]
+			id: "6138B265273C7FEF"
+			rewards: [
+				{
+					id: "0B969D1875E57355"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 4
+					id: "2BCB1AC2934EA40F"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "389F000CBFCE38E1"
+				item: "reinfbarrel:gold_barrel"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3653FECC957F28CD"]
+			id: "0EBEA82953662E42"
+			rewards: [
+				{
+					id: "35C5DBF1207B1F05"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 4
+					id: "3D53A328EEF3A7AC"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7609BF29E01E79F5"
+				item: "reinfbarrel:iron_barrel"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6138B265273C7FEF"]
+			id: "279CC78C43BAB4B2"
+			rewards: [
+				{
+					id: "01DDE00AE4E974D4"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "07CF799D1D021D65"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "707966C258FB2E3D"
+				item: "reinfbarrel:diamond_barrel"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["279CC78C43BAB4B2"]
+			id: "4A8A85AE856DE985"
+			rewards: [
+				{
+					id: "5AB705315B380462"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "5A8D6860588BB187"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7AB0F99E827FC9AD"
+				item: "reinfbarrel:netherite_barrel"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			id: "4C6FC620D1D09EFC"
+			rewards: [
+				{
+					id: "5080005C1568CD15"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 4
+					id: "6399719DB888D91C"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7CE3340C0D58BD85"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4C6FC620D1D09EFC"]
+			id: "230EDAC9F60F9A1A"
+			rewards: [
+				{
+					id: "1C33020EA9660373"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 4
+					id: "3CDB0E7AF3EC847E"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "28AFEC7DEC049638"
+				item: "reinfchest:copper_chest"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["230EDAC9F60F9A1A"]
+			id: "1EA59B30CB1FD52A"
+			rewards: [
+				{
+					id: "78F972D5F24DAF9F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 4
+					id: "4A4406C9A4346A03"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "45C1F23D449AE914"
+				item: "reinfchest:iron_chest"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1EA59B30CB1FD52A"]
+			id: "357F057005CDE463"
+			rewards: [
+				{
+					id: "7E8BAEE9526A87D0"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 4
+					id: "781A96F02697699C"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "65BA032B11186EEF"
+				item: "reinfchest:gold_chest"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["357F057005CDE463"]
+			id: "4551B7A825E6DFDE"
+			rewards: [
+				{
+					id: "0E12C7D0C97A5B14"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "63C461A0A8BDC09C"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "759C303B25FAFDA7"
+				item: "reinfchest:diamond_chest"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4551B7A825E6DFDE"]
+			id: "3E29AA96599A9ADD"
+			rewards: [
+				{
+					id: "724FFE9AA2D7995A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "19B2D78A86EBFAA0"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1A20EAEC49A807DE"
+				item: "reinfchest:netherite_chest"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.5d
+		}
+	]
+	title: " &eStorage"
+}

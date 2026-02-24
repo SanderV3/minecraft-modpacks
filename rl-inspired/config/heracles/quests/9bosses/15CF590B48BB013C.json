@@ -1,0 +1,59 @@
+{
+  "settings": {},
+  "tasks": {
+    "71FA97F4D896CBFD": {
+      "title": "Kill the Piglin Beast",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:piglin_head"
+      },
+      "type": "heracles:kill_entity",
+      "amount": 1,
+      "entity": {
+        "type": "adventurez:piglin_beast"
+      }
+    }
+  },
+  "rewards": {
+    "23CBE017D659D24D": {
+      "type": "heracles:xp",
+      "xptype": "level",
+      "amount": 5
+    },
+    "38337DD7E6E797D5": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:nether_gold_ore",
+        "count": 16
+      }
+    }
+  },
+  "display": {
+    "title": "Defeat the §6Piglin Beast",
+    "description": [
+      "<subtitle id=\"15CF590B48BB013C\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"71FA97F4D896CBFD\" quest=\"15CF590B48BB013C\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"23CBE017D659D24D\" quest=\"15CF590B48BB013C\"/>",
+      "<reward reward=\"38337DD7E6E797D5\" quest=\"15CF590B48BB013C\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:piglin_head"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "subtitle": {
+      "text": "Spawns when §6Nether Gold Ore §ris mined."
+    },
+    "groups": {
+      " §9Bosses": {
+        "position": [
+          -192,
+          -32
+        ]
+      }
+    }
+  }
+}

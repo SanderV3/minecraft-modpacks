@@ -1,0 +1,61 @@
+{
+  "dependencies": [
+    "4F127D5E1A7828B6"
+  ],
+  "tasks": {
+    "399BD33B9DCDE9ED": {
+      "type": "heracles:item",
+      "item": "#c:foods/vegetables",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Vegetables"
+    }
+  },
+  "rewards": {
+    "41B802F950C1C45B": {
+      "item": {
+        "id": "minecraft:golden_apple",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"399BD33B9DCDE9ED\" quest=\"499C3FF817B0EFB9\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"41B802F950C1C45B\" quest=\"499C3FF817B0EFB9\"/>"
+    ],
+    "groups": {
+      " §6Food and Drinks": {
+        "position": [
+          -128,
+          224
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:carrot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Vegetables"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,13 @@
+name = "Immersive Tips"
+filename = "immersivetips-fabric-1.0.2-1.20.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/FyiLzCSu/versions/teQHaEwa/immersivetips-fabric-1.0.2-1.20.1.jar"
+hash-format = "sha512"
+hash = "2eae70875eddce8ef9dabb1273f39a223727bc5def5d7b9529c63f54fb37ff2d33f7eab7aaf9b02b23e22c00eb43d9cab64bcc3e0e1aabf90b2b16af1a921bc9"
+
+[update]
+[update.modrinth]
+mod-id = "FyiLzCSu"
+version = "teQHaEwa"

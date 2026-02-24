@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "600E465D0A1DA1A6"
+  ],
+  "tasks": {
+    "76DC5B715CE7DB1A": {
+      "type": "heracles:item",
+      "item": "advancednetherite:netherite_emerald_ingot"
+    }
+  },
+  "rewards": {
+    "5B56C5FAE19A9FAC": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:netherite_scrap",
+        "count": 8
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: advancednetherite:netherite_emerald_ingot",
+    "description": [
+      "<task task=\"76DC5B715CE7DB1A\" quest=\"3FE8FE56AF545375\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5B56C5FAE19A9FAC\" quest=\"3FE8FE56AF545375\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "advancednetherite:netherite_emerald_ingot"
+    },
+    "groups": {
+      " §bWeapons and Tools": {
+        "position": [
+          -512,
+          -144
+        ]
+      }
+    }
+  }
+}

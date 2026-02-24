@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "tasks": {
+    "1011BA3513CF31CE": {
+      "title": "Create a Bestiary to Learn about Mythical Creatures",
+      "type": "heracles:item",
+      "item": "iceandfire:bestiary"
+    }
+  },
+  "rewards": {
+    "2A5AE119D9B5B421": {
+      "type": "heracles:item",
+      "item": {
+        "id": "iceandfire:manuscript",
+        "count": 12
+      }
+    }
+  },
+  "display": {
+    "title": "Craft the §4Bestiary",
+    "description": [
+      "<task task=\"1011BA3513CF31CE\" quest=\"3E970AD9C6CCA6D6\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"2A5AE119D9B5B421\" quest=\"3E970AD9C6CCA6D6\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "iceandfire:bestiary"
+    },
+    "groups": {
+      " §4Ice And Fire": {
+        "position": [
+          176,
+          80
+        ]
+      }
+    }
+  }
+}

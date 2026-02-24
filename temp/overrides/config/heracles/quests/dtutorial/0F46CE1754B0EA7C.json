@@ -1,0 +1,80 @@
+{
+  "dependencies": [
+    "161AA7EA3EA5DD56"
+  ],
+  "tasks": {
+    "004A42196E2DADBF": {
+      "type": "heracles:item",
+      "item": "notreepunching:flint_pickaxe",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "76120A864B41F388": {
+      "type": "heracles:item",
+      "item": "notreepunching:flint_hoe",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "4175220975B0809A": {
+      "type": "heracles:item",
+      "item": "notreepunching:flint_shovel",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "13A8F4C3EBCB37CC": {
+      "xptype": "POINTS",
+      "amount": 15,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"004A42196E2DADBF\" quest=\"0F46CE1754B0EA7C\"/>",
+      "<task task=\"4175220975B0809A\" quest=\"0F46CE1754B0EA7C\"/>",
+      "<task task=\"76120A864B41F388\" quest=\"0F46CE1754B0EA7C\"/>",
+      "<hr/>",
+      "A &&aFlint pickaxe, hoe and shovel &&rwill serve as early game tools, while you can create a &&aMacuahutil &&rfor a good early game weapon.",
+      "<br/>",
+      "&&aSaws &&rare a weaker version of an axe which are used as crafting items, and are essential for converting wood into planks and planks into sticks.",
+      "<br/>",
+      "&&aMattocks &&rare the ultimate all-in-one tool. They can mine blocks as if they were a shovel, axe, or hoe, and can strip wood like an axe, till grass like a hoe, and make paths like a shovel. (The latter two functions sometimes conflict and can be chosen by sneaking).",
+      "<hr/>",
+      "<reward reward=\"13A8F4C3EBCB37CC\" quest=\"0F46CE1754B0EA7C\"/>"
+    ],
+    "groups": {
+      " §dTutorial": {
+        "position": [
+          96,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "notreepunching:flint_pickaxe",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "§bFlint Tools"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

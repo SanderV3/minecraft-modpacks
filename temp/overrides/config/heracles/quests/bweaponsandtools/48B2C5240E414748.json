@@ -1,0 +1,38 @@
+{
+  "settings": {},
+  "tasks": {
+    "3B265E3E1448D644": {
+      "type": "heracles:item",
+      "item": "simplyswords:twisted_blade"
+    }
+  },
+  "rewards": {
+    "584FAB6594E74ED1": {
+      "type": "heracles:item",
+      "item": {
+        "id": "simplyswords:runic_tablet"
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: simplyswords:twisted_blade",
+    "description": [
+      "<task task=\"3B265E3E1448D644\" quest=\"48B2C5240E414748\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"584FAB6594E74ED1\" quest=\"48B2C5240E414748\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "simplyswords:twisted_blade"
+    },
+    "groups": {
+      " §bWeapons and Tools": {
+        "position": [
+          -320,
+          -240
+        ]
+      }
+    }
+  }
+}

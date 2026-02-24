@@ -1,0 +1,67 @@
+{
+  "dependencies": [
+    "7BE3C78E84C2893E"
+  ],
+  "tasks": {
+    "Iron Backpack": {
+      "type": "heracles:item",
+      "item": "sophisticatedbackpacks:iron_backpack",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "3CD6DDB9E853F340": {
+      "item": {
+        "id": "minecraft:iron_ingot",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "0EFADF7ED3C5F24B": {
+      "xptype": "LEVEL",
+      "amount": 1,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"27F1B74EFEB56074\" quest=\"6DC15B81570E4A30\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0EFADF7ED3C5F24B\" quest=\"6DC15B81570E4A30\"/>",
+      "<reward reward=\"3CD6DDB9E853F340\" quest=\"6DC15B81570E4A30\"/>",
+      "<reward reward=\"265BA7F4726AEBC1\" quest=\"6DC15B81570E4A30\"/>"
+    ],
+    "groups": {
+      " §eStorage": {
+        "position": [
+          -25,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sophisticatedbackpacks:iron_backpack",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Craft a §7Iron Backpack"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

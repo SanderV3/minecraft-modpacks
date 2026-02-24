@@ -1,0 +1,13 @@
+name = "Serene Seasons Plus"
+filename = "Fabric-Version-sereneseasonsplus-1.20.1-4.2.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/4Al4H3t9/versions/vAimRXQF/Fabric-Version-sereneseasonsplus-1.20.1-4.2.4.jar"
+hash-format = "sha512"
+hash = "a0dcf7e5bfdd732b8ebfc7fc955823af3eb050273c9399a940ae0c35ee6323540afb4f2d7b0b84e094fd5797f153a824641b0a98a15d865c321f5dab78c6c80a"
+
+[update]
+[update.modrinth]
+mod-id = "4Al4H3t9"
+version = "vAimRXQF"

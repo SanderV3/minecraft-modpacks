@@ -1,0 +1,38 @@
+{
+  "settings": {},
+  "tasks": {
+    "62BBBBA03AF9CC15": {
+      "type": "heracles:item",
+      "item": "simplyswords:wickpiercer"
+    }
+  },
+  "rewards": {
+    "4B74293C108E0A5B": {
+      "type": "heracles:item",
+      "item": {
+        "id": "simplyswords:runic_tablet"
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: simplyswords:wickpiercer",
+    "description": [
+      "<task task=\"62BBBBA03AF9CC15\" quest=\"54ED66EC7F478700\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4B74293C108E0A5B\" quest=\"54ED66EC7F478700\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "simplyswords:wickpiercer"
+    },
+    "groups": {
+      " §bWeapons and Tools": {
+        "position": [
+          -352,
+          -80
+        ]
+      }
+    }
+  }
+}

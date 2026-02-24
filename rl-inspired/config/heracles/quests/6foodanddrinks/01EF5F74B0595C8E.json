@@ -1,0 +1,38 @@
+{
+  "settings": {},
+  "tasks": {
+    "767F3557BAC3B5C6": {
+      "type": "heracles:item",
+      "item": "farmersdelight:pie_crust"
+    }
+  },
+  "rewards": {
+    "4D31BF58D0C8C4AE": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:golden_apple"
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: farmersdelight:pie_crust",
+    "description": [
+      "<task task=\"767F3557BAC3B5C6\" quest=\"01EF5F74B0595C8E\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4D31BF58D0C8C4AE\" quest=\"01EF5F74B0595C8E\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "farmersdelight:pie_crust"
+    },
+    "groups": {
+      " §6Food and Drinks": {
+        "position": [
+          -16,
+          16
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "5AE31E02D3953279": {
+      "type": "heracles:item",
+      "item": "#handcrafted:nightstands",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Any #handcrafted:nightstands"
+    }
+  },
+  "rewards": {
+    "7DB463C2358DEADC": {
+      "item": {
+        "id": "minecraft:iron_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"5AE31E02D3953279\" quest=\"0581FCD14AA440C5\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7DB463C2358DEADC\" quest=\"0581FCD14AA440C5\"/>"
+    ],
+    "groups": {
+      " §5Furniture": {
+        "position": [
+          -144,
+          -144
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "handcrafted:oak_nightstand",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Nightstands"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

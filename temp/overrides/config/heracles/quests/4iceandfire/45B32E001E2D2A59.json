@@ -1,0 +1,64 @@
+{
+  "dependencies": [
+    "6BB536E4647E981D"
+  ],
+  "tasks": {
+    "55DBAC0D7C1174B0": {
+      "title": "Create a Weapon from Dragonsteel",
+      "advancements": [
+        "iceandfire:iceandfire/dragonsteel_weapon"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "5090129B02DB9FB0": {
+      "item": {
+        "id": "iceandfire:dread_key",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"55DBAC0D7C1174B0\" quest=\"45B32E001E2D2A59\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5090129B02DB9FB0\" quest=\"45B32E001E2D2A59\"/>"
+    ],
+    "groups": {
+      " §4Ice And Fire": {
+        "position": [
+          432,
+          400
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "iceandfire:dragonsteel_fire_sword",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Craft the §bDragonsteel Sword"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,289 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "dfurniture"
+	group: ""
+	icon: "handcrafted:crimson_couch"
+	id: "156801139F4BD901"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "56D3CDB477888C39"
+			rewards: [{
+				id: "6C44CCD2BE7B3E04"
+				item: "minecraft:iron_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2AB930A78C4C9498"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "handcrafted:couches"
+					}
+				}
+				title: "Any #handcrafted:couches"
+				type: "item"
+			}]
+			title: "Couches"
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			id: "09F63E728DC2CEB2"
+			rewards: [{
+				id: "2CD3E271711A3F68"
+				item: "minecraft:iron_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "69E8C46BF2D553A8"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "handcrafted:dining_benches"
+					}
+				}
+				title: "Any #handcrafted:dining_benches"
+				type: "item"
+			}]
+			title: "Dining Tables"
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			id: "2816C536AA7A650D"
+			rewards: [{
+				id: "6F0DD2832A676A30"
+				item: "minecraft:iron_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5B74DD8F5B376852"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "handcrafted:side_tables"
+					}
+				}
+				title: "Any #handcrafted:side_tables"
+				type: "item"
+			}]
+			title: "Side Tables"
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			id: "146CD28418A46587"
+			rewards: [{
+				id: "1A89E40EBB70D24B"
+				item: "minecraft:iron_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4EB9BC54071B34FA"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "handcrafted:desks"
+					}
+				}
+				title: "Any #handcrafted:desks"
+				type: "item"
+			}]
+			title: "Desks"
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			id: "0581FCD14AA440C5"
+			rewards: [{
+				id: "7DB463C2358DEADC"
+				item: "minecraft:iron_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5AE31E02D3953279"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "handcrafted:nightstands"
+					}
+				}
+				title: "Any #handcrafted:nightstands"
+				type: "item"
+			}]
+			title: "Nightstands"
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			id: "23C9EA1E74F67DF3"
+			rewards: [{
+				id: "6405674EC34ECDC2"
+				item: "minecraft:iron_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "23FA3772C6D76065"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "handcrafted:tables"
+					}
+				}
+				title: "Any #handcrafted:tables"
+				type: "item"
+			}]
+			title: "Tables"
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			id: "5EC1B9E59F09E627"
+			rewards: [{
+				id: "302FA85E9E98D909"
+				item: "minecraft:iron_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C3F33FA909882C1"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "handcrafted:fancy_beds"
+					}
+				}
+				title: "Any #handcrafted:fancy_beds"
+				type: "item"
+			}]
+			title: "Fancy Beds"
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			id: "4C32CBB07C518AEF"
+			rewards: [{
+				id: "019D7FDD26E30057"
+				item: "minecraft:iron_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "63961A7DE623F432"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "handcrafted:counters"
+					}
+				}
+				title: "Any #handcrafted:counters"
+				type: "item"
+			}]
+			title: "Counters"
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			id: "584CA98AE816F59B"
+			rewards: [{
+				id: "79B5D589C6AC605D"
+				item: "minecraft:iron_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6538C93A3E85F040"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "handcrafted:cupboards"
+					}
+				}
+				title: "Any #handcrafted:cupboards"
+				type: "item"
+			}]
+			title: "Cupboards"
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			id: "7A659BEA0C32788B"
+			rewards: [{
+				id: "213D69B0D62DE911"
+				item: "minecraft:iron_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6AFF6836346BF434"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "handcrafted:drawers"
+					}
+				}
+				title: "Any #handcrafted:drawers"
+				type: "item"
+			}]
+			title: "Drawers"
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			id: "38E0B89AFAA8329E"
+			rewards: [{
+				id: "168A1793E4179121"
+				item: "minecraft:iron_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6EFAAE32A7161041"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "handcrafted:shelves"
+					}
+				}
+				title: "Any #handcrafted:shelves"
+				type: "item"
+			}]
+			title: "Shelves"
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			id: "0E4D4030BCBB432D"
+			rewards: [{
+				id: "5C671F7F73623E51"
+				item: "minecraft:iron_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "161B9EA2B4B0BCD2"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "handcrafted:wooden_benches"
+					}
+				}
+				title: "Any #handcrafted:wooden_benches"
+				type: "item"
+			}]
+			title: "Benches"
+			x: -4.5d
+			y: -2.0d
+		}
+	]
+	title: " &5Furniture"
+}

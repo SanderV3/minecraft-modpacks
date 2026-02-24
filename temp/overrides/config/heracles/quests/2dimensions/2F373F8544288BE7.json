@@ -1,0 +1,68 @@
+{
+  "dependencies": [
+    "1476C9202FDC2A8B"
+  ],
+  "tasks": {
+    "315B6D5ABC46B46C": {
+      "icon": {
+        "item": {
+          "id": "the_bumblezone:bee_queen_spawn_egg",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "entity": "the_bumblezone:bee_queen",
+      "title": "Observe a Bee Queen",
+      "type": "heracles:entity_interaction"
+    }
+  },
+  "rewards": {
+    "64999A35203CA3D1": {
+      "item": {
+        "id": "the_bumblezone:music_disc_la_bee_da_loca",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Found in Throne Pillar structures. Trades for a variety of resources. Try giving her §eHoney Bottles§r, §4Spider Eyes§r, §fString§r, or §dDyes§r."
+    },
+    "description": [
+      "<subtitle id=\"2F373F8544288BE7\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"315B6D5ABC46B46C\" quest=\"2F373F8544288BE7\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"64999A35203CA3D1\" quest=\"2F373F8544288BE7\"/>"
+    ],
+    "groups": {
+      " §2Dimensions": {
+        "position": [
+          -256,
+          96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "the_bumblezone:bee_queen_spawn_egg",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Find the §6Bee Queen"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

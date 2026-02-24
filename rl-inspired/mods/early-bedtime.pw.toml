@@ -1,0 +1,13 @@
+name = "Early Bedtime"
+filename = "earlybedtime-fabric-1.0.0-1.20.1.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/TjcYKx6s/versions/xJojwIoc/earlybedtime-fabric-1.0.0-1.20.1.jar"
+hash-format = "sha512"
+hash = "327eb3055f2543e9bd0e81581a042c37be1e6d1c671ebae5872717f14169471ef10229d10b198b44c360eb6c87c4a5d95e334fa3003d88bc4961d495396d627e"
+
+[update]
+[update.modrinth]
+mod-id = "TjcYKx6s"
+version = "xJojwIoc"

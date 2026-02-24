@@ -1,0 +1,59 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "4D933ABD13996451": {
+      "type": "heracles:item",
+      "item": "#handcrafted:chairs",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Any #handcrafted:chairs"
+    }
+  },
+  "rewards": {
+    "087EFE224C12D0B9": {
+      "item": {
+        "id": "minecraft:emerald_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"4D933ABD13996451\" quest=\"3AEB8F359CE07393\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"087EFE224C12D0B9\" quest=\"3AEB8F359CE07393\"/>"
+    ],
+    "groups": {
+      " §5Furniture": {
+        "position": [
+          -176,
+          -16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "handcrafted:oak_chair",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Chairs"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

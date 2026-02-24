@@ -1,0 +1,59 @@
+{
+  "settings": {},
+  "tasks": {
+    "39277C96F2B9EA6B": {
+      "title": "Kill the Ghost of Captain Cornelia",
+      "icon": {
+        "type": "heracles:item",
+        "item": "aquamirae:three_bolt_helmet"
+      },
+      "type": "heracles:kill_entity",
+      "amount": 1,
+      "entity": {
+        "type": "aquamirae:captain_cornelia"
+      }
+    }
+  },
+  "rewards": {
+    "43F01880E01D9F8C": {
+      "type": "heracles:xp",
+      "xptype": "level",
+      "amount": 10
+    },
+    "63C5B3AFF1E5858D": {
+      "type": "heracles:item",
+      "item": {
+        "id": "aquamirae:abyssal_amethyst",
+        "count": 4
+      }
+    }
+  },
+  "display": {
+    "title": "Defeat the §5Ghost of the Captain Cornelia",
+    "description": [
+      "<subtitle id=\"4657158C259EC82C\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"39277C96F2B9EA6B\" quest=\"4657158C259EC82C\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"43F01880E01D9F8C\" quest=\"4657158C259EC82C\"/>",
+      "<reward reward=\"63C5B3AFF1E5858D\" quest=\"4657158C259EC82C\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "aquamirae:three_bolt_helmet"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "subtitle": {
+      "text": "Summoned by using the §6Shell Horn §rnear water in an §bIce Maze§r."
+    },
+    "groups": {
+      " §9Bosses": {
+        "position": [
+          0,
+          -128
+        ]
+      }
+    }
+  }
+}

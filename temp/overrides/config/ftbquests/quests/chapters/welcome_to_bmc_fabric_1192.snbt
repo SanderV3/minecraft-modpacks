@@ -1,0 +1,590 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome_to_bmc_fabric_1192"
+	group: ""
+	icon: "minecraft:book"
+	id: "3E34934F09B08365"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Welcome to &eRising Legends&r! A modpack attempting to recreate &eRLCraft &rfor modern versions of Minecraft."
+				""
+				"This tutorial will guide you through some basic features. Don't worry, it won't take &otoo &rlong!"
+				""
+				"To start, click the checkmark under the word \"&9Tasks&r\" and then claim the &6Quest Reward&r. New quests will start to appear!"
+				""
+				"If you find any bugs or have any suggestions, hit me up on discord linked on modpack's, Modrinth page. "
+				""
+				"Modpack made by Cwortex."
+			]
+			icon: "iceandfire:dragon_skull_fire"
+			id: "6A52090D6BC064D7"
+			rewards: [{
+				id: "4CD9825BCA2396D8"
+				type: "xp"
+				xp: 15
+			}]
+			size: 2.0d
+			subtitle: "To start the tutorial, click on this quest and read the description."
+			tasks: [{
+				id: "1B0800437C68C43A"
+				title: "Click me!"
+				type: "checkmark"
+			}]
+			title: "&eWelcome to Rising Legends!"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6A52090D6BC064D7"]
+			description: [
+				"The icon in the top left of the screen is the &aFTB Teams &rmenu. This allows you to add other players to your team."
+				""
+				"On the right of the &aFTB Teams &ricon is the &6Quest Book &ricon, which allows you to access the &6Quest Book &rat any time."
+				""
+				"When you hover over your armor slots, your &dTrinket &rslots will become visible. Some items, such as Elytras and Totems can be equipped here. Slots with an eye icon at the top are cosmetic slots, which are purely visual."
+			]
+			hide: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbteams:textures/teams.png"
+				}
+			}
+			id: "2958CA7FA6FD3E4F"
+			rewards: [{
+				id: "631818C206B979D0"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "Read my description!"
+			tasks: [{
+				id: "0DD3C1416FC34FA1"
+				title: "Click me!"
+				type: "checkmark"
+			}]
+			title: "&2Inventory"
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6A52090D6BC064D7"]
+			description: [
+				"&9Tasks &rare things that need to be done to complete a quest. If a task is an item, clicking on it will show its recipe."
+				""
+				"&6Rewards &rare what you get after completing all &9Tasks&r. Click to claim."
+				""
+				"The pin icon at the top right will pin a quest to your screen."
+			]
+			hide: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbquests:textures/item/book.png"
+				}
+			}
+			id: "175099CF5696829E"
+			rewards: [{
+				id: "0778753261F0BA3F"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "Read my description!"
+			tasks: [{
+				id: "21428FE253D34D4E"
+				title: "Click me!"
+				type: "checkmark"
+			}]
+			title: "&6Quests"
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6A52090D6BC064D7"]
+			description: [
+				"Press &bR&r while hovering over an item to view its Recipe"
+				""
+				"Press &bU&r while hovering over an item to view its Uses"
+				""
+				"Press &bB&r while a Backpack is on your Back Slot to open it"
+				""
+				"Press &bY &rto Zoom"
+				""
+				"Press &bM &rto open the World Map"
+				""
+				"Hold &b;&r while using a tool with the Vein Mining enchant to activate Vein Mining"
+			]
+			hide: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:textures/icons/player.png"
+				}
+			}
+			id: "2165E80C52C79992"
+			rewards: [{
+				id: "7A14D948A862B2BE"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "Read my description! Make sure to scroll down."
+			tasks: [{
+				id: "6A64112F92690241"
+				title: "Click me!"
+				type: "checkmark"
+			}]
+			title: "&9Important Controls"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2958CA7FA6FD3E4F"]
+			description: [
+				"At the bottom of the inventory, you may have noticed a search bar."
+				"This is the &dExpanded Menu Interface&r, or &dEMI&r, search bar. "
+				"If you type \"Wood\", for example, the &dEMI &ritem list at the right of the screen will show all items with \"Wood\" in the name."
+				""
+				"Adding a @ at the start of the search query, it will show the items from a specific mod, for example @handcrafted or @hand"
+				""
+				"Adding a # at the start of the search query, it will show all items with a specific tag, for example #log"
+				""
+				"To favorite an item, drag it from &dEMI &ritem list to the left side of the screen."
+				""
+				"When browsing an item's recipes for a specific workbench, you can click on the workbench's name to see everything that the workbench can craft."
+				"For example, if you are viewing the recipe for Sweetberry Jam, you can click the \"Cooking Pot\" text to see all Cooking Pot recipes."
+			]
+			hide: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "owo:textures/gui/config_search.png"
+				}
+			}
+			id: "139DAA6E8CF4267A"
+			rewards: [{
+				id: "6C5D6EEF2565E0E5"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "Read my description! Make sure to scroll down."
+			tasks: [{
+				id: "74C85348A8B837EB"
+				title: "Roughly Enough Items"
+				type: "checkmark"
+			}]
+			title: "&dExpanded Menu Interface (EMI)"
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"139DAA6E8CF4267A"
+				"7C92294814D83B8B"
+				"744567796DA83436"
+			]
+			description: [
+				"The tutorial is now &afinished&r!"
+				""
+				"&l&aMORE QUESTS!&a&l &f&rTo view the rest of the quests, leave this quest screen and put your cursor to the left of the main quest page where the arrow is."
+				""
+				"Let your journey begin!"
+			]
+			hide: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:textures/icons/check.png"
+				}
+			}
+			id: "580EC3AF4A150A98"
+			rewards: [
+				{
+					id: "6E2AA09930D67535"
+					item: "adventurez:handbook"
+					type: "item"
+				}
+				{
+					id: "5A9388634495AC44"
+					item: "seasonsextras:seasonal_compendium"
+					type: "item"
+				}
+				{
+					id: "13DE5B8181B1C847"
+					item: "dehydration:handbook"
+					type: "item"
+				}
+			]
+			subtitle: "Read my description!"
+			tasks: [{
+				id: "5372E5D8527E4994"
+				title: "Click me!"
+				type: "checkmark"
+			}]
+			title: "&aTutorial Complete!"
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6A52090D6BC064D7"]
+			description: [
+				"This modpack adds a little more believability to your first few minutes of play. Blocks don't drop anything if broken without the correct tool. In order to cope with this, there are several new features:"
+				""
+				"Leaves can be harvested without a tool for &asticks&rand gravel can be mined without a tool, and enables you to aquire &aflint&r. "
+				""
+				"Flint can be knapped on an exposed stone surface, obtaining &aflint shards&r. A &aFlint Knife &rcan now be crafted, allowing you to harvest plant materials for plant fibers and craft plant string."
+				""
+				"Vanilla recipes for wooden and stone tools have been removed."
+				"The vanilla campfire recipe as been removed, and instead it is crafted using a &aFire Starter&r."
+				"Pottery can be created using a &aClay Tool &ron a block of clay, forming it to shape before firing it in a campfire or a furnace."
+			]
+			hide: true
+			icon: "minecraft:flint"
+			id: "381194B712565CEA"
+			rewards: [{
+				id: "034A810E42230343"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [
+				{
+					id: "4C21F1DD802FBFF1"
+					item: "minecraft:flint"
+					type: "item"
+				}
+				{
+					id: "32510A07404356AF"
+					item: "notreepunching:flint_shard"
+					type: "item"
+				}
+				{
+					id: "0EE7DBA7FBE406EB"
+					item: "minecraft:stick"
+					type: "item"
+				}
+			]
+			title: "&dSurvival Basics"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["381194B712565CEA"]
+			description: [
+				"&aKnives &rare a new tool available in all vanilla tool materials, and can be used as weak swords, as a crafting tool, or a plant harvester."
+				""
+				"Use the knife to turn plants into &aplant string &rand create a flint axe."
+			]
+			hide: true
+			icon: {
+				Count: 1
+				id: "farmersdelight:flint_knife"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3974097A8C6554B1"
+			rewards: [{
+				id: "69A0CC5A232689A3"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [
+				{
+					id: "6459398EB7A1FCAD"
+					item: {
+						Count: 1
+						id: "notreepunching:flint_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4BADB310A8D1DC97"
+					item: "notreepunching:plant_fiber"
+					type: "item"
+				}
+				{
+					id: "5D637C78639708E4"
+					item: "notreepunching:plant_string"
+					type: "item"
+				}
+			]
+			title: "&aFlint Knife"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3974097A8C6554B1"]
+			description: [
+				"A Flint Axe can enable you to collect wood and build a crafting table."
+				""
+				"&aPlanks &rare obtained by putting an Axe &nover&r a log in the crafting grid."
+				"&aSticks &rare obtained by putting an Axe &nnext to&r a log or planks in the crafting grid."
+			]
+			hide: true
+			icon: {
+				Count: 1
+				id: "notreepunching:flint_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "161AA7EA3EA5DD56"
+			rewards: [{
+				id: "075CF6ABE2D37CDC"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [
+				{
+					id: "5DFDF59169E444EB"
+					item: {
+						Count: 1
+						id: "notreepunching:flint_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5CFE409F53215483"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:logs"
+						}
+					}
+					title: "Log"
+					type: "item"
+				}
+				{
+					id: "6E4300EAC44D8EEF"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:planks"
+						}
+					}
+					title: "Planks"
+					type: "item"
+				}
+			]
+			title: "&6Flint Axe"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["161AA7EA3EA5DD56"]
+			description: [
+				"A &aFlint pickaxe, hoe and shovel &rwill serve as early game tools, while you can create a &aMacuahutil &rfor a good early game weapon."
+				""
+				"&aSaws &rare a weaker version of an axe which are used as crafting items, and are essential for converting wood into planks and planks into sticks."
+				""
+				"&aMattocks &rare the ultimate all-in-one tool. They can mine blocks as if they were a shovel, axe, or hoe, and can strip wood like an axe, till grass like a hoe, and make paths like a shovel. (The latter two functions sometimes conflict and can be chosen by sneaking)."
+			]
+			hide: true
+			icon: {
+				Count: 1
+				id: "notreepunching:flint_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0F46CE1754B0EA7C"
+			rewards: [{
+				id: "13A8F4C3EBCB37CC"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [
+				{
+					id: "004A42196E2DADBF"
+					item: {
+						Count: 1
+						id: "notreepunching:flint_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4175220975B0809A"
+					item: {
+						Count: 1
+						id: "notreepunching:flint_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "76120A864B41F388"
+					item: {
+						Count: 1
+						id: "notreepunching:flint_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&bFlint Tools"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["381194B712565CEA"]
+			description: [
+				"Player's health is splitted in &cdifferent body parts&r. When a part receives damage only the armor corresponding to that part is taken in consideration."
+				""
+				"If some parts lose all the health, &cdebuffs &rwill be applied to the player, such as slowness, mining fatigue and weakness."
+			]
+			hide: true
+			icon: "bodyhealthsystem:medkit"
+			id: "02E0DE40D11169B0"
+			rewards: [{
+				id: "0B694A2773061107"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [
+				{
+					id: "77E3A1FEDDCBE6A6"
+					item: "bodyhealthsystem:plaster"
+					type: "item"
+				}
+				{
+					id: "6A1087E25FDA056B"
+					item: "bodyhealthsystem:morphine"
+					type: "item"
+				}
+				{
+					id: "1FA4CBEA74C4B369"
+					item: "bodyhealthsystem:medkit"
+					type: "item"
+				}
+			]
+			title: "&cBody Health System"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["381194B712565CEA"]
+			description: [
+				"Just like food, you'll need to stay &9hydrated &rto survive and thrive."
+				""
+				"Drinking dirty water will inflict player with &9thirst debuff&r, just like hunger when eating rotten food. Getting access to &bpurified water &rearly is essential for survival."
+				""
+				"For more information, read the &9Handbook&r."
+			]
+			hide: true
+			icon: "dehydration:leather_flask"
+			id: "7760E85046D9B2AB"
+			rewards: [{
+				id: "6E3884E471368618"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [
+				{
+					id: "2B4F34562811BF8C"
+					item: "dehydration:leather_flask"
+					type: "item"
+				}
+				{
+					id: "72EB7CB28D00CAAB"
+					item: "dehydration:purified_water_bucket"
+					type: "item"
+				}
+			]
+			title: "&9Dehydration"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2165E80C52C79992"]
+			description: [
+				"By default, graphics is set to look similar to the original RLCraft from Minecraft 1.12.2 that is now over 7 years old."
+				""
+				"So if you want the game look better, remove the &bProgrammer Art &rfrom your ressource packs folder and add &bStay True &rand &bMandala's GUI &ron top it."
+				""
+				"I also highly recommend enabling &ashaders &rin the video settings."
+				""
+				"The mod &cEnhanced Visuals &radds screen effects for being hurt, seeing explosion or being wet and &cFancy Block Particles &radds the old RLCraft's breaking animation and particles. Feel free to tweak these."
+			]
+			hide: true
+			icon: "handcrafted:fancy_painting"
+			id: "744567796DA83436"
+			rewards: [{
+				id: "6A5FC9145CA17538"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "Read my description! Make sure to scroll down."
+			tasks: [{
+				id: "20689CEC98DD9FCB"
+				title: "Click me!"
+				type: "checkmark"
+			}]
+			title: "&bGraphics"
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["175099CF5696829E"]
+			description: [
+				"Skill levels are acquired by spending &bskill points &ron them. Skill points are obtained by collecting &bexperience&r. Each skill level grants access to new blocks, items, and entities."
+				""
+				"There are several default skill levels based on proficiencies. They are listed here with some examples of what blocks, items, and entities are gated by them:"
+				""
+				"&aAgriculture &r- hoes, axes, plants, crops, plant-based food"
+				"&aAnimal Husbandry &r- animals, meat-based food"
+				"&aBuilding &r- decoration blocks, scaffolding"
+				"&aCombat &r- swords, bows, armour"
+				"&aEngineering &r- redstone things, dispensers, TNT"
+				"&aMining &r- pickaxes, shovels, stones, ores"
+				"&aSorcery &r- potions, enchanting"
+				"&aStorage &r- bundles, barrels, chests, ender chests, shulkers"
+				"&aSurvival &r- beds, compasses, buckets, boats"
+				"&aTrading &r- villagers, wandering trader"
+				""
+				"When the &bskills list screen &ris opened with '&bK&r', you can see the list of skills. Each skill shows the current level and has buttons to gain a level in that skill and to view more information about the skill."
+				""
+				"When clicking the '&b?&r' button to see information about a skill, a list opens showing which blocks and items are unlocked at certain levels of the skill."
+			]
+			hide: true
+			icon: "minecraft:experience_bottle"
+			id: "7C92294814D83B8B"
+			rewards: [{
+				id: "3B38DF452141CF16"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "Read my description! Make sure to scroll down."
+			tasks: [{
+				id: "1B49966592AA1848"
+				title: "Click me!"
+				type: "checkmark"
+			}]
+			title: "&eSkills"
+			x: 1.5d
+			y: 5.5d
+		}
+	]
+	title: " &dTutorial"
+}

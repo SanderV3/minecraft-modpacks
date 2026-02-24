@@ -1,0 +1,59 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "69E8C46BF2D553A8": {
+      "type": "heracles:item",
+      "item": "#handcrafted:dining_benches",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Any #handcrafted:dining_benches"
+    }
+  },
+  "rewards": {
+    "2CD3E271711A3F68": {
+      "item": {
+        "id": "minecraft:iron_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"69E8C46BF2D553A8\" quest=\"09F63E728DC2CEB2\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"2CD3E271711A3F68\" quest=\"09F63E728DC2CEB2\"/>"
+    ],
+    "groups": {
+      " §5Furniture": {
+        "position": [
+          -48,
+          -128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "handcrafted:oak_dining_bench",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Dining Tables"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

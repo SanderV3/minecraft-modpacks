@@ -1,0 +1,58 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "sharestone": {
+      "type": "heracles:item",
+      "item": "waystones:return_scroll",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "671499D60792CE98": {
+      "xptype": "LEVEL",
+      "amount": 5,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Allows you to teleport back §8Home"
+    },
+    "description": [
+      "<subtitle id=\"76C53A8D2CF93270\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"5031E936CAD61B0E\" quest=\"76C53A8D2CF93270\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"671499D60792CE98\" quest=\"76C53A8D2CF93270\"/>"
+    ],
+    "groups": {
+      " §aMiscellaneous": {
+        "position": [
+          -112,
+          80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "waystones:return_scroll",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "Craft a §5Return Scroll"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

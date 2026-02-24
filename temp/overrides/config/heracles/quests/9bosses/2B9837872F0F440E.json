@@ -1,0 +1,65 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "6ED7825779423823": {
+      "title": "Kill the Hydra",
+      "advancements": [
+        "twilightforest:progress_hydra"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "256F57B0E3B531D0": {
+      "xptype": "LEVEL",
+      "amount": 5,
+      "type": "heracles:xp"
+    },
+    "22A4E0F6D23E9AF5": {
+      "item": {
+        "id": "twilightforest:fiery_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"6ED7825779423823\" quest=\"2B9837872F0F440E\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"256F57B0E3B531D0\" quest=\"2B9837872F0F440E\"/>",
+      "<reward reward=\"22A4E0F6D23E9AF5\" quest=\"2B9837872F0F440E\"/>"
+    ],
+    "groups": {
+      " §9Bosses": {
+        "position": [
+          192,
+          256
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "twilightforest:hydra_trophy",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "title": {
+      "translate": "Defeat the §3Hydra"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

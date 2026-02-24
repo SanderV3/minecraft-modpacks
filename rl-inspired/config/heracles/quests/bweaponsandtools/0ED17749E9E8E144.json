@@ -1,0 +1,38 @@
+{
+  "settings": {},
+  "tasks": {
+    "3A3A80364FDE59A1": {
+      "type": "heracles:item",
+      "item": "simplyswords:stars_edge"
+    }
+  },
+  "rewards": {
+    "2CBAD80EB8C3F55E": {
+      "type": "heracles:item",
+      "item": {
+        "id": "simplyswords:runic_tablet"
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: simplyswords:stars_edge",
+    "description": [
+      "<task task=\"3A3A80364FDE59A1\" quest=\"0ED17749E9E8E144\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"2CBAD80EB8C3F55E\" quest=\"0ED17749E9E8E144\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "simplyswords:stars_edge"
+    },
+    "groups": {
+      " §bWeapons and Tools": {
+        "position": [
+          -288,
+          -240
+        ]
+      }
+    }
+  }
+}

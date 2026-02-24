@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "tasks": {
+    "6BC10EE1F8E85471": {
+      "type": "heracles:item",
+      "item": "minecraft:grindstone"
+    }
+  },
+  "rewards": {
+    "324DF316CFD748B5": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:book",
+        "count": 8
+      }
+    }
+  },
+  "display": {
+    "title": "Craft a §8Grindstone",
+    "description": [
+      "<subtitle id=\"27860CA52E601BF3\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"6BC10EE1F8E85471\" quest=\"27860CA52E601BF3\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"324DF316CFD748B5\" quest=\"27860CA52E601BF3\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:grindstone"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "subtitle": {
+      "text": "By putting an enchanted item alongside a normal book inside of a §8grindstone§r, the enchantments from the item will be added to the book."
+    },
+    "groups": {
+      " §aMiscellaneous": {
+        "position": [
+          -64,
+          80
+        ]
+      }
+    }
+  }
+}

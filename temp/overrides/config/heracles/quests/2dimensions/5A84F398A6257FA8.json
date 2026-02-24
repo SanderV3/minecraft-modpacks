@@ -1,0 +1,70 @@
+{
+  "dependencies": [
+    "6DF9CE1B78FEF4E4"
+  ],
+  "tasks": {
+    "5300982B0B88B741": {
+      "type": "heracles:item",
+      "item": "deeperdarker:soul_elytra",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "1A8B9D22B35E2A03": {
+      "item": {
+        "id": "minecraft:firework_rocket",
+        "count": 32,
+        "nbt": {
+          "Fireworks": {
+            "Flight": 1
+          }
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "An armored §6Elytra §rwhich allows you to boost without rockets."
+    },
+    "description": [
+      "<subtitle id=\"5A84F398A6257FA8\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"5300982B0B88B741\" quest=\"5A84F398A6257FA8\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"1A8B9D22B35E2A03\" quest=\"5A84F398A6257FA8\"/>"
+    ],
+    "groups": {
+      " §2Dimensions": {
+        "position": [
+          -48,
+          16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "deeperdarker:soul_elytra",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Craft the §3Soul Elytra"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

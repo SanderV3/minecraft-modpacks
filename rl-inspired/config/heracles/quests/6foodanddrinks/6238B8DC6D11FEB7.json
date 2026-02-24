@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "416B0FD8D7531E46"
+  ],
+  "tasks": {
+    "1D93C84C6AA4FB02": {
+      "type": "heracles:item",
+      "item": "farmersdelight:rich_soil"
+    }
+  },
+  "rewards": {
+    "5848AFA02BF232B6": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:golden_apple"
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: farmersdelight:rich_soil",
+    "description": [
+      "<task task=\"1D93C84C6AA4FB02\" quest=\"6238B8DC6D11FEB7\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5848AFA02BF232B6\" quest=\"6238B8DC6D11FEB7\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "farmersdelight:rich_soil"
+    },
+    "groups": {
+      " §6Food and Drinks": {
+        "position": [
+          -16,
+          112
+        ]
+      }
+    }
+  }
+}

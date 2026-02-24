@@ -1,0 +1,39 @@
+{
+  "settings": {},
+  "tasks": {
+    "14270E7F91600CB0": {
+      "type": "heracles:item",
+      "item": "adventurez:gilded_upgrade_smithing_template"
+    }
+  },
+  "rewards": {
+    "6249824E76C3436E": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:diamond",
+        "count": 7
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: adventurez:gilded_upgrade_smithing_template",
+    "description": [
+      "<task task=\"14270E7F91600CB0\" quest=\"1839CD5463A4CA57\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6249824E76C3436E\" quest=\"1839CD5463A4CA57\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "adventurez:gilded_upgrade_smithing_template"
+    },
+    "groups": {
+      " §bWeapons and Tools": {
+        "position": [
+          -448,
+          -208
+        ]
+      }
+    }
+  }
+}

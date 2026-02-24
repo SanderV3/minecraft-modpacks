@@ -1,0 +1,58 @@
+{
+  "settings": {},
+  "tasks": {
+    "7B411CB1E85CBD5D": {
+      "title": "Kill a Mutant Skeleton",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:skeleton_skull"
+      },
+      "type": "heracles:kill_entity",
+      "amount": 1,
+      "entity": {
+        "type": "mutantmonsters:mutant_skeleton"
+      }
+    }
+  },
+  "rewards": {
+    "33FB2A62A54A9506": {
+      "type": "heracles:xp",
+      "xptype": "level",
+      "amount": 5
+    },
+    "45A4C725C743952D": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:skeleton_skull"
+      }
+    }
+  },
+  "display": {
+    "title": "Defeat the §7Mutant Skeleton",
+    "description": [
+      "<subtitle id=\"56409D4CB2AD12CC\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"7B411CB1E85CBD5D\" quest=\"56409D4CB2AD12CC\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"33FB2A62A54A9506\" quest=\"56409D4CB2AD12CC\"/>",
+      "<reward reward=\"45A4C725C743952D\" quest=\"56409D4CB2AD12CC\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:skeleton_skull"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "subtitle": {
+      "text": "Splash a §0Chemical X §rpotion on a §fSkeleton§r."
+    },
+    "groups": {
+      " §9Bosses": {
+        "position": [
+          -288,
+          -32
+        ]
+      }
+    }
+  }
+}

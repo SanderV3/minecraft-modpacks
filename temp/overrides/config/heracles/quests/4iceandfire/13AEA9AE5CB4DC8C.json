@@ -1,0 +1,67 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "7937EB20CD333843": {
+      "icon": {
+        "item": {
+          "id": "iceandfire:dread_shard",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "entity": {
+        "type": "iceandfire:dread_scuttler"
+      },
+      "amount": 1,
+      "title": "Kill a Dread Scuttler",
+      "type": "heracles:kill_entity"
+    }
+  },
+  "rewards": {
+    "13F74B65C899A229": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"7937EB20CD333843\" quest=\"13AEA9AE5CB4DC8C\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"13F74B65C899A229\" quest=\"13AEA9AE5CB4DC8C\"/>"
+    ],
+    "groups": {
+      " §4Ice And Fire": {
+        "position": [
+          432,
+          272
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "iceandfire:dread_shard",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Defeat the §3Dread Scuttler"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

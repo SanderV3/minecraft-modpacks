@@ -1,0 +1,61 @@
+{
+  "dependencies": [
+    "3485EB0E6E652808"
+  ],
+  "tasks": {
+    "3738FD8F31826548": {
+      "type": "heracles:item",
+      "item": "#diet:proteins",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Sea Food"
+    }
+  },
+  "rewards": {
+    "31A2A8A83EF58CE8": {
+      "item": {
+        "id": "minecraft:golden_apple",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"3738FD8F31826548\" quest=\"6650A014D7EAD387\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"31A2A8A83EF58CE8\" quest=\"6650A014D7EAD387\"/>"
+    ],
+    "groups": {
+      " §6Food and Drinks": {
+        "position": [
+          -176,
+          112
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "oceansdelight:guardian_soup",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Sea Food"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

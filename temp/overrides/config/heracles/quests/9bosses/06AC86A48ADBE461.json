@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "tasks": {
+    "2DE4A5899D8481B4": {
+      "title": "Kill the Night Lich",
+      "icon": {
+        "type": "heracles:item",
+        "item": "bosses_of_mass_destruction:ancient_anima"
+      },
+      "type": "heracles:advancement",
+      "advancements": [
+        "bosses_of_mass_destruction:adventure/night_lich_defeat"
+      ]
+    }
+  },
+  "rewards": {
+    "40F97B4A1CE5DBCB": {
+      "type": "heracles:xp",
+      "xptype": "level",
+      "amount": 10
+    },
+    "69E660617F5F14D8": {
+      "type": "heracles:item",
+      "item": {
+        "id": "bosses_of_mass_destruction:void_lily"
+      }
+    }
+  },
+  "display": {
+    "title": "Defeat the §bNight Lich",
+    "description": [
+      "<subtitle id=\"06AC86A48ADBE461\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"2DE4A5899D8481B4\" quest=\"06AC86A48ADBE461\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"40F97B4A1CE5DBCB\" quest=\"06AC86A48ADBE461\"/>",
+      "<reward reward=\"69E660617F5F14D8\" quest=\"06AC86A48ADBE461\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "bosses_of_mass_destruction:ancient_anima"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "subtitle": {
+      "text": "Found in §3cold §rbiomes. "
+    },
+    "groups": {
+      " §9Bosses": {
+        "position": [
+          0,
+          -32
+        ]
+      }
+    }
+  }
+}

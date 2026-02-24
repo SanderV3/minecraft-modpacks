@@ -1,0 +1,13 @@
+name = "Temperature API"
+filename = "temperatureapi-1.1.8.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/OlQFjYhU/versions/iG8uV860/temperatureapi-1.1.8.jar"
+hash-format = "sha512"
+hash = "839fd8359606e2f234bc7bf0c7cc8d4429e8ca893ea49593dcdad322ac752945e7c84a54d7c29e4fb2d06f88705bf151ae958699b29c33a45ed8dcf293e25d80"
+
+[update]
+[update.modrinth]
+mod-id = "OlQFjYhU"
+version = "iG8uV860"

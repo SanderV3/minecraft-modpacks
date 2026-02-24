@@ -1,0 +1,82 @@
+{
+  "dependencies": [
+    "3485EB0E6E652808",
+    "51BB7C4CFC2DCF65"
+  ],
+  "tasks": {
+    "45CD20A6098C59F6": {
+      "type": "heracles:item",
+      "item": "farmersdelight:pasta_with_mutton_chop",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "75738923E94B8C10": {
+      "type": "heracles:item",
+      "item": "farmersdelight:pasta_with_meatballs",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "787A384A1A588374": {
+      "type": "heracles:item",
+      "item": "farmersdelight:squid_ink_pasta",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "4C13132E3548647F": {
+      "type": "heracles:item",
+      "item": "farmersdelight:vegetable_noodles",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "7ECAB66536B5A441": {
+      "item": {
+        "id": "minecraft:golden_apple",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"45CD20A6098C59F6\" quest=\"47E85C166E3045B9\"/>",
+      "<task task=\"75738923E94B8C10\" quest=\"47E85C166E3045B9\"/>",
+      "<task task=\"4C13132E3548647F\" quest=\"47E85C166E3045B9\"/>",
+      "<task task=\"787A384A1A588374\" quest=\"47E85C166E3045B9\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7ECAB66536B5A441\" quest=\"47E85C166E3045B9\"/>"
+    ],
+    "groups": {
+      " §6Food and Drinks": {
+        "position": [
+          -192,
+          64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "farmersdelight:pasta_with_mutton_chop",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Pasta"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

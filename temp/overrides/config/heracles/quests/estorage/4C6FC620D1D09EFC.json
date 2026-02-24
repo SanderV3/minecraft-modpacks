@@ -1,0 +1,64 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "7CE3340C0D58BD85": {
+      "type": "heracles:item",
+      "item": "minecraft:chest",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "5080005C1568CD15": {
+      "xptype": "LEVEL",
+      "amount": 1,
+      "type": "heracles:xp"
+    },
+    "6399719DB888D91C": {
+      "item": {
+        "id": "minecraft:leather",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"7CE3340C0D58BD85\" quest=\"4C6FC620D1D09EFC\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5080005C1568CD15\" quest=\"4C6FC620D1D09EFC\"/>",
+      "<reward reward=\"6399719DB888D91C\" quest=\"4C6FC620D1D09EFC\"/>"
+    ],
+    "groups": {
+      " §eStorage": {
+        "position": [
+          -125,
+          100
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sophisticatedstorage:chest",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Chest"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

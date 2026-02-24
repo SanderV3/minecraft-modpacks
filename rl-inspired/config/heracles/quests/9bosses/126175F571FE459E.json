@@ -1,0 +1,59 @@
+{
+  "settings": {},
+  "tasks": {
+    "68AD7BB3957C4697": {
+      "title": "Kill the Conjunctivius",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecells:conjunctivius_respawn_rune"
+      },
+      "type": "heracles:kill_entity",
+      "amount": 1,
+      "entity": {
+        "type": "minecells:conjunctivius"
+      }
+    }
+  },
+  "rewards": {
+    "0F47D32303123D09": {
+      "type": "heracles:xp",
+      "xptype": "level",
+      "amount": 5
+    },
+    "1E0713937C393A4D": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecells:monsters_eye",
+        "count": 3
+      }
+    }
+  },
+  "display": {
+    "title": "Defeat the §3Conjunctivius",
+    "description": [
+      "<subtitle id=\"126175F571FE459E\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"68AD7BB3957C4697\" quest=\"126175F571FE459E\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0F47D32303123D09\" quest=\"126175F571FE459E\"/>",
+      "<reward reward=\"1E0713937C393A4D\" quest=\"126175F571FE459E\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecells:conjunctivius_respawn_rune"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "subtitle": {
+      "text": "Found at the end of §8Prison§r dimension."
+    },
+    "groups": {
+      " §9Bosses": {
+        "position": [
+          -96,
+          160
+        ]
+      }
+    }
+  }
+}

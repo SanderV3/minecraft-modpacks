@@ -1,0 +1,83 @@
+{
+  "dependencies": [
+    "7C92294814D83B8B",
+    "139DAA6E8CF4267A",
+    "744567796DA83436"
+  ],
+  "tasks": {
+    "5372E5D8527E4994": {
+      "title": "Click me!",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "6E2AA09930D67535": {
+      "item": {
+        "id": "adventurez:handbook",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "13DE5B8181B1C847": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "5A9388634495AC44": {
+      "item": {
+        "id": "seasonsextras:seasonal_compendium",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Read my description!"
+    },
+    "description": [
+      "<subtitle id=\"580EC3AF4A150A98\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"5372E5D8527E4994\" quest=\"580EC3AF4A150A98\"/>",
+      "<hr/>",
+      "The tutorial is now &&afinished&&r!",
+      "<br/>",
+      "&&l&&aMORE QUESTS!&&a&&l &&f&&rTo view the rest of the quests, leave this quest screen and put your cursor to the left of the main quest page where the arrow is.",
+      "<br/>",
+      "Let your journey begin!",
+      "<hr/>",
+      "<reward reward=\"6E2AA09930D67535\" quest=\"580EC3AF4A150A98\"/>",
+      "<reward reward=\"5A9388634495AC44\" quest=\"580EC3AF4A150A98\"/>",
+      "<reward reward=\"13DE5B8181B1C847\" quest=\"580EC3AF4A150A98\"/>"
+    ],
+    "groups": {
+      " §dTutorial": {
+        "position": [
+          48,
+          224
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:diamond",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "§aTutorial Complete!"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

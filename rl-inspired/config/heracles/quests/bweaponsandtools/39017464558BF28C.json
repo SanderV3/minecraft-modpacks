@@ -1,0 +1,39 @@
+{
+  "settings": {},
+  "tasks": {
+    "77FA946C9BF69353": {
+      "type": "heracles:item",
+      "item": "minecraft:netherite_upgrade_smithing_template"
+    }
+  },
+  "rewards": {
+    "0F2DBA052E013466": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:diamond",
+        "count": 7
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: minecraft:netherite_upgrade_smithing_template",
+    "description": [
+      "<task task=\"77FA946C9BF69353\" quest=\"39017464558BF28C\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0F2DBA052E013466\" quest=\"39017464558BF28C\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:netherite_upgrade_smithing_template"
+    },
+    "groups": {
+      " §bWeapons and Tools": {
+        "position": [
+          -448,
+          -240
+        ]
+      }
+    }
+  }
+}

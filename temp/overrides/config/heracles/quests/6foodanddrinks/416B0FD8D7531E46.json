@@ -1,0 +1,38 @@
+{
+  "settings": {},
+  "tasks": {
+    "0BC68DED82BE3CF0": {
+      "type": "heracles:item",
+      "item": "farmersdelight:organic_compost"
+    }
+  },
+  "rewards": {
+    "148053F70B662BBA": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:golden_apple"
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: farmersdelight:organic_compost",
+    "description": [
+      "<task task=\"0BC68DED82BE3CF0\" quest=\"416B0FD8D7531E46\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"148053F70B662BBA\" quest=\"416B0FD8D7531E46\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "farmersdelight:organic_compost"
+    },
+    "groups": {
+      " §6Food and Drinks": {
+        "position": [
+          -16,
+          160
+        ]
+      }
+    }
+  }
+}

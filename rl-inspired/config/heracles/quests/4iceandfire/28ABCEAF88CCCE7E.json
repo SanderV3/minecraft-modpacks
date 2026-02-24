@@ -1,0 +1,46 @@
+{
+  "settings": {},
+  "tasks": {
+    "1CC22F0992453B80": {
+      "title": "Kill a Death Worm",
+      "icon": {
+        "type": "heracles:item",
+        "item": "iceandfire:deathworm_gauntlet_yellow"
+      },
+      "type": "heracles:kill_entity",
+      "amount": 1,
+      "entity": {
+        "type": "iceandfire:deathworm"
+      }
+    }
+  },
+  "rewards": {
+    "67207BB6B972FC59": {
+      "type": "heracles:item",
+      "item": {
+        "id": "iceandfire:deathworm_tounge"
+      }
+    }
+  },
+  "display": {
+    "title": "Defeat the §eDeath Worm",
+    "description": [
+      "<task task=\"1CC22F0992453B80\" quest=\"28ABCEAF88CCCE7E\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"67207BB6B972FC59\" quest=\"28ABCEAF88CCCE7E\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "iceandfire:deathworm_gauntlet_yellow"
+    },
+    "groups": {
+      " §4Ice And Fire": {
+        "position": [
+          368,
+          272
+        ]
+      }
+    }
+  }
+}

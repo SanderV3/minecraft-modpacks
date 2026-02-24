@@ -1,0 +1,51 @@
+{
+  "dependencies": [
+    "31F84AF8A59421A2"
+  ],
+  "tasks": {
+    "39DE5C5F26E8AFCD": {
+      "title": "Reach the End of the End",
+      "advancements": [
+        "adventurez:void_shadow_advancement"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"39DE5C5F26E8AFCD\" quest=\"1C8D89A8A2099DC1\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      " §2Dimensions": {
+        "position": [
+          -160,
+          -256
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:ender_eye",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "§1Complete The Game"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

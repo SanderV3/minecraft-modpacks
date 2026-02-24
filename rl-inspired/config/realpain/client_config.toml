@@ -1,0 +1,9 @@
+# Don't change this! Version used to track needed updates.
+version = 0
+# Whether the GUI should render player model rather than boxes
+renderModel = false
+# Whether the GUI should render debug part info
+debug = false
+guiX = 10
+guiY = 197
+guiScale = 3

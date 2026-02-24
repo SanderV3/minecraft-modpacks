@@ -1,0 +1,59 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "1487602D1DBFBCFE": {
+      "type": "heracles:item",
+      "item": "#c:seeds",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Seeds"
+    }
+  },
+  "rewards": {
+    "052BF9675E8354DA": {
+      "item": {
+        "id": "minecraft:golden_apple",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"1487602D1DBFBCFE\" quest=\"0F3ECF00654B5452\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"052BF9675E8354DA\" quest=\"0F3ECF00654B5452\"/>"
+    ],
+    "groups": {
+      " §6Food and Drinks": {
+        "position": [
+          -224,
+          224
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:wheat_seeds",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Seeds"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

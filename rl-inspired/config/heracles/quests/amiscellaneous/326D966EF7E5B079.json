@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "tasks": {
+    "4D2ADF0206ABF306": {
+      "type": "heracles:item",
+      "item": "villagersplus:occultist_table"
+    }
+  },
+  "rewards": {
+    "5C1A55CE5740A5F8": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:emerald",
+        "count": 5
+      }
+    }
+  },
+  "display": {
+    "title": "Craft an §dEnchanted Basin",
+    "description": [
+      "<subtitle id=\"326D966EF7E5B079\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"4D2ADF0206ABF306\" quest=\"326D966EF7E5B079\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5C1A55CE5740A5F8\" quest=\"326D966EF7E5B079\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "villagersplus:occultist_table"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "subtitle": {
+      "text": "Used to turn a villager into an §dOccultist"
+    },
+    "groups": {
+      " §aMiscellaneous": {
+        "position": [
+          -16,
+          32
+        ]
+      }
+    }
+  }
+}
