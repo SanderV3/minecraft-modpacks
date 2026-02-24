@@ -1,6 +1,0 @@
- §dTutorial
- §9Bosses
- §4Ice And Fire
- §6Food and Drinks
- §eStorage
- §5Furniture
