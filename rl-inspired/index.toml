@@ -4815,7 +4815,7 @@ metafile = true
 
 [[files]]
 file = "mods/fancymenu.pw.toml"
-hash = "4bd9ac202d078e664dd7d6a9edc52886ff2282aab14f7ad9cf7492b7424cb495"
+hash = "4334e9426356d57e14b47fdae67fc5f589ebf6b4b0849fb95156436d18ab45e7"
 metafile = true
 
 [[files]]
@@ -4875,7 +4875,7 @@ metafile = true
 
 [[files]]
 file = "mods/forge-config-screens.pw.toml"
-hash = "ca2cad39790a1ab7dca3dc22d8becc6d148c711fb39f3ababf97d0936a886984"
+hash = "ddb1daa7aef25c68b270ba3f6d70761f80a83dde81a803728a30db97a8acb5d0"
 metafile = true
 
 [[files]]
