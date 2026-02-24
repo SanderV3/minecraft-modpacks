@@ -4874,6 +4874,11 @@ hash = "adea09f1e1b05da68cf7407992a9391b15985acf5465a888e54ae076dbd543ab"
 metafile = true
 
 [[files]]
+file = "mods/forge-config-screens.pw.toml"
+hash = "ddb1daa7aef25c68b270ba3f6d70761f80a83dde81a803728a30db97a8acb5d0"
+metafile = true
+
+[[files]]
 file = "mods/formations-nether.pw.toml"
 hash = "0afffd423f22bb5e19129f3cd9183031f1c65b39bbeb68314ea621a42d8514e0"
 metafile = true
@@ -5406,7 +5411,7 @@ metafile = true
 
 [[files]]
 file = "mods/patchouli.pw.toml"
-hash = "dcba751d89332cc7b0d7e0f04e9d3a3bc6cc29040fd2610021b14b279683bc48"
+hash = "e2add51333ff5ad3a6a14ab9f97614a3728fe52cfea3fb78bcbc2cfd7586be24"
 metafile = true
 
 [[files]]
