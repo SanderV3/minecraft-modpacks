@@ -4696,11 +4696,6 @@ hash = "7930debe319ee1dce2a5fbe1970d5e3a3834861dcfa56bbe0fd7e2727b120b41"
 metafile = true
 
 [[files]]
-file = "mods/early-loading-bar.pw.toml"
-hash = "26ae037d9762efc9fc77183b2083869165fc6d98de006af2f0eb7d156c967e75"
-metafile = true
-
-[[files]]
 file = "mods/easy-anvils.pw.toml"
 hash = "e9ba6ffa1109ca957fef061ef4b41a46300b3cfb382ef4ae24f96c54309fd31f"
 metafile = true
@@ -5090,11 +5085,6 @@ metafile = true
 [[files]]
 file = "mods/konkrete.pw.toml"
 hash = "d6be91dc0a2aca23ee640818d8a8295c85ddb2db6e0413669ecac9600b01eef0"
-metafile = true
-
-[[files]]
-file = "mods/krypton.pw.toml"
-hash = "9063bac3fdf585a43d318e3f9773475a28ecb8fe80bc7689cc480851eef97420"
 metafile = true
 
 [[files]]
